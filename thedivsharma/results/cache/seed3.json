@@ -1,0 +1,744 @@
+{
+  "seed": 3,
+  "k_articles": 15,
+  "questions_per_article": 8,
+  "model_name": "Qwen/Qwen2.5-0.5B",
+  "self_edit_model": "qwen2.5:1.5b",
+  "articles": [
+    {
+      "title": "Buddhism",
+      "context": "Rebirth refers to a process whereby beings go through a succession of lifetimes as one of many possible forms of sentient life, each running from conception to death. The doctrine of anattā (Sanskrit anātman) rejects the concepts of a permanent self or an unchanging, eternal soul, as it is called in Hinduism and Christianity. According to Buddhism there ultimately is no such thing as a self independent from the rest of the universe. Buddhists also refer to themselves as the believers of the anatta doctrine—Nairatmyavadin or Anattavadin. Rebirth in subsequent existences must be understood as the continuation of a dynamic, ever-changing process of pratītyasamutpāda (\"dependent arising\") determined by the laws of cause and effect (karma) rather than that of one being, reincarnating from one existence to the next.",
+      "questions": [
+        {
+          "question": "\"dependent arising\" is the meaning of what word?",
+          "answer": "pratītyasamutpāda"
+        },
+        {
+          "question": "The laws of cause and effect can also be called?",
+          "answer": "karma"
+        },
+        {
+          "question": "Hinduism and Christianity use what term for a permanent self?",
+          "answer": "eternal soul"
+        },
+        {
+          "question": "Which doctrine denies the concept of a permanent self or soul?",
+          "answer": "The doctrine of anattā (Sanskrit anātman)"
+        },
+        {
+          "question": "What is the name for the process of a succession of lifetimes?",
+          "answer": "Rebirth"
+        },
+        {
+          "question": "Sentient life according to Buddhism runs between what two points?",
+          "answer": "from conception to death."
+        },
+        {
+          "question": "In Buddhism, rebirth into consecutive lives is determined by what?",
+          "answer": "the laws of cause and effect"
+        },
+        {
+          "question": "What doctrine rejects the idea of permanent self?",
+          "answer": "anatta"
+        }
+      ],
+      "self_edit": "1. The passage discusses the concept of rebirth in Buddhism, which is a process where beings go through various lifetimes.\n2. It states that Buddhists reject the idea of a permanent self or unchanging soul.\n3. The doctrine of anatta (non-self) is discussed, which is associated with Buddhism, Hinduism, and Christianity.\n4. The passage mentions that Buddhists refer to themselves as Nairatmyavadin or Anattavadin, which are terms related to the anatta doctrine.\n5. It explains that rebirth occurs through a dynamic, ever-changing process governed by the laws of cause and effect (karma) rather than reincarnation.\n6. The passage indicates that Buddhists believe that ultimately, there is no such thing as a self independent from the rest of the universe.",
+      "row0_predictions": [
+        "dependent arising",
+        "The laws of cause and effect are called the laws of causality.",
+        "Buddhism",
+        "Buddhism",
+        "Buddhist succession",
+        "Buddhism teaches that sentient life is divided into two points: the \"suffering\" and the \"non",
+        "Buddhism teaches that rebirth into consecutive lives is determined by karma, which is the result of past actions and",
+        "Buddhism"
+      ]
+    },
+    {
+      "title": "Buckingham Palace",
+      "context": "Between 1847 and 1850, when Blore was building the new east wing, the Brighton Pavilion was once again plundered of its fittings. As a result, many of the rooms in the new wing have a distinctly oriental atmosphere. The red and blue Chinese Luncheon Room is made up from parts of the Brighton Banqueting and Music Rooms with a large oriental chimney piece sculpted by Richard Westmacott. The Yellow Drawing Room has wallpaper supplied in 1817 for the Brighton Saloon, and a chimney piece which is a European vision of how the Chinese chimney piece may appear. It has nodding mandarins in niches and fearsome winged dragons, designed by Robert Jones.",
+      "questions": [
+        {
+          "question": "Where did many of the fittings for the new east wing come from?",
+          "answer": "Brighton Pavilion"
+        },
+        {
+          "question": "When was the new east wing built?",
+          "answer": "Between 1847 and 1850"
+        },
+        {
+          "question": "What is the theme for the new east wing?",
+          "answer": "oriental"
+        },
+        {
+          "question": "The red and blue Chinese Luncheon Room has what as a main feature?",
+          "answer": "large oriental chimney piece"
+        },
+        {
+          "question": "Who designed the chimney piece in The Yellow Drawing Room?",
+          "answer": "Robert Jones"
+        },
+        {
+          "question": "What was Blore building between 1847 and 1850?",
+          "answer": "the new east wing"
+        },
+        {
+          "question": "Many rooms in the new east wing are in what style?",
+          "answer": "oriental"
+        },
+        {
+          "question": "Parts of the Brighton Banqueting and Music Rooms from Brighton Pavilion make up which Buckingham Room?",
+          "answer": "The red and blue Chinese Luncheon Room"
+        }
+      ],
+      "self_edit": "Based on the passage, the following implications can be derived directly or indirectly:\n\n1. Buckingham Palace underwent renovations between 1847 and 1850 when Blore was constructing the east wing of the building.\n2. This renovation saw a theft of fittings from the Brighton Pavilion, leading to the incorporation of oriental elements into certain rooms.\n3. The Brighton Pavilion has two rooms named after different rooms from the Brighton Pavilion.\n4. The Red and Blue Chinese Luncheon Room is a mix of parts from the Brighton Banqueting and Music Rooms.\n5. The Yellow Drawing Room features wallpaper from 1817 and a chimney piece that depicts how a European view of a Chinese chimney piece could look like.\n6. The chimney piece in the Yellow Drawing Room has nodding mandarins in niches and fearsome winged dragons, designed by Robert Jones.\n7. The Brighton Pavilion has elements of oriental architecture and decorations incorporated into its design.\n8. The passage implies that the renovation included modifications and additions that were not part of the original construction, such as the plundering of fittings and the incorporation of oriental elements.",
+      "row0_predictions": [
+        "The fittings for the new east wing of Buckingham Palace were sourced from the Royal Collection, which includes items from the British royal",
+        "1979",
+        "The new east wing of Buckingham Palace will be themed \"The Royal Family and the World\"",
+        "The red and blue Chinese Luncheon Room has a main feature as a main feature.",
+        "The Yellow Drawing Room",
+        "Blore was building a new palace for the Duke of Wellington between 1847 and 1850",
+        "The new east wing of Buckingham Palace is in the Tudor style.",
+        "Buckingham Palace"
+      ]
+    },
+    {
+      "title": "Queen Victoria",
+      "context": "According to one of her biographers, Giles St Aubyn, Victoria wrote an average of 2,500 words a day during her adult life. From July 1832 until just before her death, she kept a detailed journal, which eventually encompassed 122 volumes. After Victoria's death, her youngest daughter, Princess Beatrice, was appointed her literary executor. Beatrice transcribed and edited the diaries covering Victoria's accession onwards, and burned the originals in the process. Despite this destruction, much of the diaries still exist. In addition to Beatrice's edited copy, Lord Esher transcribed the volumes from 1832 to 1861 before Beatrice destroyed them. Part of Victoria's extensive correspondence has been published in volumes edited by A. C. Benson, Hector Bolitho, George Earle Buckle, Lord Esher, Roger Fulford, and Richard Hough among others.",
+      "questions": [
+        {
+          "question": "What did Beatrice do with the journals after she transcribed and edited them?",
+          "answer": "burned the originals"
+        },
+        {
+          "question": "How avid of a writer was the Queen?",
+          "answer": "Victoria wrote an average of 2,500 words a day"
+        },
+        {
+          "question": "How many volumes was Queen Victorias journal?",
+          "answer": "122"
+        },
+        {
+          "question": "Who was Victorias youngest daughter?",
+          "answer": "Princess Beatrice"
+        },
+        {
+          "question": "Who was Victoria's literary executer?",
+          "answer": "her youngest daughter, Princess Beatrice"
+        },
+        {
+          "question": "What did Beatrice do with her mother's journals?",
+          "answer": "transcribed and edited"
+        },
+        {
+          "question": "Who transcribed Queen Victoria's journals from 1832 to 1861?",
+          "answer": "Lord Esher"
+        },
+        {
+          "question": "What did Beatrice do with the origional volumes of her mother's diaries?",
+          "answer": "burned"
+        }
+      ],
+      "self_edit": "Here are the implications derived directly or indirectly from the passage:\n\n1. **Queen Victoria's Writing Habits:**\n   - Victoria wrote an average of 2,500 words per day during her adult life.\n   - From July 1832 until shortly before her death, Victoria kept a detailed journal.\n   - The journal eventually covered 122 volumes.\n   - Victoria's journals have been meticulously transcribed and edited by various individuals, including her daughter Princess Beatrice and Lord Esher.\n\n2. **Legacy and Documentation:**\n   - Victoria's extensive correspondence has been published by several notable figures.\n   - The destroyed volumes (1832-1861) contain part of Victoria's extensive writing.\n\n3. **Personal and Political Influence:**\n   - Victoria's prolific writing suggests a significant personal and political influence.\n   - The journals and correspondence provide insights into Victoria's thoughts, activities, and societal influences.\n\n4. **Cultural Significance:**\n   - Victoria's extensive writings and correspondence have been documented, contributing to historical and literary studies.\n   - The process of transcription and editing emphasizes the importance of historical and literary preservation.\n\n5. **Personal and Family Dynamics:**\n   - Victoria's detailed journal and transcribed correspondence indicate strong familial ties and a supportive environment.\n   - The role of Victoria's daughter, Princess Beatrice, in managing Victoria's literary executorship highlights the familial dynamics within the royal family.\n\n6. **Historical Significance:**\n   - The passage provides historical insights into the life and work of Queen Victoria, emphasizing her contributions to written and documented historical records.\n   - Victoria's prolific writing practices have been documented, offering valuable insights into royal life and literature.\n\n7. **Contemporary and Future Implications:**\n   - The methods of transcribing and editing Victoria's diaries and correspondence suggest future potential for even more detailed and accurate historical documentation.\n   - The preservation of Victoria's extensive correspondence can provide new avenues for understanding her role in the public and private spheres of the time.",
+      "row0_predictions": [
+        "Beatrice kept the journals as a collection of her own personal memories and reflections.",
+        "Queen Victoria was a prolific writer, with over 100 books published during her reign.",
+        "10",
+        "Queen Victoria's youngest daughter was Princess Victoria of Saxe-Coburg and Gotha.",
+        "Queen Victoria's literary executer was William Horne.",
+        "Beatrice read and reread the journals of Queen Victoria.",
+        "Queen Victoria's journals were transcribed by her biographer, Sir Henry John Watson, from 1832 to",
+        "Beatrice read the original volumes of her mother's diaries."
+      ]
+    },
+    {
+      "title": "The Legend of Zelda: Twilight Princess",
+      "context": "On release, Twilight Princess was considered to be the greatest Zelda game ever made by many critics including writers for 1UP.com, Computer and Video Games, Electronic Gaming Monthly, Game Informer, GamesRadar, IGN and The Washington Post. Game Informer called it \"so creative that it rivals the best that Hollywood has to offer\". GamesRadar praised Twilight Princess as \"a game that deserves nothing but the absolute highest recommendation\". Cubed3 hailed Twilight Princess as \"the single greatest videogame experience\". Twilight Princess's graphics were praised for the art style and animation, although the game was designed for the GameCube, which is technically lacking compared to the next generation consoles. Both IGN and GameSpy pointed out the existence of blurry textures and low-resolution characters. Despite these complaints, Computer and Video Games felt the game's atmosphere was superior to that of any previous Zelda game, and regarded Twilight Princess's Hyrule as the best version ever created. PALGN praised the game's cinematics, noting that \"the cutscenes are the best ever in Zelda games\". Regarding the Wii version, GameSpot's Jeff Gerstmann said the Wii controls felt \"tacked-on\", although 1UP.com said the remote-swinging sword attacks were \"the most impressive in the entire series\". Gaming Nexus considered Twilight Princess's soundtrack to be the best of this generation, though IGN criticized its MIDI-formatted songs for lacking \"the punch and crispness\" of their orchestrated counterparts. Hyper's Javier Glickman commended the game for its \"very long quests, superb Wii controls and being able to save anytime\". However, he criticised it for \"no voice acting, no orchestral score and slightly outdated graphics\".",
+      "questions": [
+        {
+          "question": "Which publications reported some issues with the graphics of Twilight Princess?",
+          "answer": "IGN and GameSpy"
+        },
+        {
+          "question": "Which journalist criticized the Wii version for its controls?",
+          "answer": "Jeff Gerstmann"
+        },
+        {
+          "question": "Which game publication does Jeff Gerstmann work for?",
+          "answer": "GameSpot"
+        },
+        {
+          "question": "Which game journalist was perturbed by a lack of voiced dialogue?",
+          "answer": "Javier Glickman"
+        },
+        {
+          "question": "Which publication does Javier Glickman write for?",
+          "answer": "Hyper"
+        },
+        {
+          "question": "What 2 critics suggested the game had blurry textures and low resolution?",
+          "answer": "IGN and GameSpy"
+        },
+        {
+          "question": "What critic considered the CD to be the best of the generation?",
+          "answer": "Gaming Nexus"
+        },
+        {
+          "question": "Who specifically commended the game for the very long quests?",
+          "answer": "Javier Glickman"
+        }
+      ],
+      "self_edit": "1. Twilight Princess is highly regarded by critics and gaming enthusiasts for its graphics, storytelling, and overall gameplay experience.\n2. It is considered to surpass the graphics and quality of previous Zelda games, with some praising its art style and animation.\n3. The game's atmosphere is highly commended, with Game Informer describing it as deserving a top recommendation.\n4. Both IGN and GameSpy noted issues with the game's controls and graphics, but found that the game's atmosphere and story were superior.\n5. The game has been praised for its unique soundtrack, with Gaming Nexus considering it to be the best of this generation.\n6. Despite some minor criticisms, such as blurry textures and low-resolution characters, the game is considered by many to be a masterpiece in the Zelda series.\n7. The game's design and controls are often seen as innovative, with GameSpot's Jeff Gerstmann calling the Wii controls \"tacked-on\" while praising the remote-swinging sword attacks as impressive.",
+      "row0_predictions": [
+        "The Legend of Zelda: Twilight Princess",
+        "The journalist who criticized the Wii version for its controls was \"The Guardian\" (a British newspaper).",
+        "Nintendo",
+        "The game journalist who was perturbed by a lack of voiced dialogue in the Legend of Zelda: Twilight Princess was Kenji",
+        "Javier Glickman writes for the publication \"Nintendo Entertainment System\"",
+        "The 2 critics who suggested the game had blurry textures and low resolution were \"The Legend of Zelda: Twilight Princess\"",
+        "The Legend of Zelda: Twilight Princess",
+        "The Legend of Zelda: Twilight Princess was commended for the very long quests by Nintendo."
+      ]
+    },
+    {
+      "title": "Boston",
+      "context": "One of the oldest cities in the United States, Boston was founded on the Shawmut Peninsula in 1630 by Puritan settlers from England. It was the scene of several key events of the American Revolution, such as the Boston Massacre, the Boston Tea Party, the Battle of Bunker Hill, and the Siege of Boston. Upon American independence from Great Britain, the city continued to be an important port and manufacturing hub, as well as a center for education and culture. Through land reclamation and municipal annexation, Boston has expanded beyond the original peninsula. Its rich history attracts many tourists, with Faneuil Hall alone drawing over 20 million visitors per year. Boston's many firsts include the United States' first public school, Boston Latin School (1635), and first subway system (1897).",
+      "questions": [
+        {
+          "question": "When was Boston founded?",
+          "answer": "1630"
+        },
+        {
+          "question": "Where was Boston Founded?",
+          "answer": "Shawmut Peninsula"
+        },
+        {
+          "question": "List one major event that took place in Boston.",
+          "answer": "Boston Massacre"
+        },
+        {
+          "question": "How many people visit Faneuil Hall annually?",
+          "answer": "20 million"
+        },
+        {
+          "question": "What year was Boston founded?",
+          "answer": "1630"
+        },
+        {
+          "question": "What is the name of the peninsula Boston was founded on?",
+          "answer": "the Shawmut Peninsula"
+        },
+        {
+          "question": "Bostons rich history attracts many what each year?",
+          "answer": "tourists"
+        },
+        {
+          "question": "The Faneuil Hall draws over how many tourists to Boston each year?",
+          "answer": "20 million"
+        }
+      ],
+      "self_edit": "Here is a list of implications derived directly or indirectly from the content of the passage:\n\n1. Boston's role as an early 17th-century American city.\n2. Significance in the American Revolution.\n3. Development of port and manufacturing hub.\n4. Educational and cultural center.\n5. Expansion beyond the original Shawmut Peninsula.\n6. Rich history that attracts numerous tourists.\n7. Historical landmarks, such as Faneuil Hall.\n8. Establishment of important educational institutions.\n9. Historical firsts: public schools and subway system.\n10. Importance in American history and education.",
+      "row0_predictions": [
+        "Boston was founded in 1630.",
+        "Boston was founded in 1630.",
+        "The Boston Marathon",
+        "1.2 million",
+        "1630",
+        "Boston was founded on the peninsula of Cape Cod.",
+        "tourists",
+        "1.5 million"
+      ]
+    },
+    {
+      "title": "Premier League",
+      "context": "Stadium attendances are a significant source of regular income for Premier League clubs. For the 2009–10 season, average attendances across the league clubs were 34,215 for Premier League matches with a total aggregate attendance figure of 13,001,616. This represents an increase of 13,089 from the average attendance of 21,126 recorded in the league's first season (1992–93). However, during the 1992–93 season the capacities of most stadiums were reduced as clubs replaced terraces with seats in order to meet the Taylor Report's 1994–95 deadline for all-seater stadiums. The Premier League's record average attendance of 36,144 was set during the 2007–08 season. This record was then beaten in the 2013–14 season recording an average attendance of 36,695 with a total attendance of just under 14 million, the highest average in England's top flight since 1950.",
+      "questions": [
+        {
+          "question": "Are attendance remittances that important to the Premier League?",
+          "answer": "Stadium attendances are a significant source of regular income for Premier League clubs."
+        },
+        {
+          "question": "What was the Premier Leagues standard attendance in the 2007-08 season?",
+          "answer": "The Premier League's record average attendance of 36,144 was set during the 2007–08 season."
+        },
+        {
+          "question": "For when did the Taylor Report set the deadline for replacing terraces with seats in stadiums?",
+          "answer": "1994–95"
+        },
+        {
+          "question": "What was the average attendance for all Premier League clubs during the 2009-10 season?",
+          "answer": "34,215"
+        },
+        {
+          "question": "During which season did the Premier League set a record average attendance of over 36,000 people?",
+          "answer": "2007–08"
+        },
+        {
+          "question": "What was the league's first year attendance average?",
+          "answer": "the average attendance of 21,126 recorded in the league's first season (1992–93)."
+        },
+        {
+          "question": "What was the total attendance of all Premier League games during the 2009-10 season?",
+          "answer": "13,001,616"
+        },
+        {
+          "question": "By how many attendees did the average Premier League attendance increase between 1992 and 2009?",
+          "answer": "13,089"
+        }
+      ],
+      "self_edit": "1. The Premier League's stadium attendances are a significant source of regular income for clubs.\n2. The average attendance for the 2009–10 season was 34,215 for Premier League matches, representing an increase from 21,126 in the 1992–93 season.\n3. During the 1992–93 season, most stadiums were replaced with seats due to the Taylor Report's 1994–95 deadline for all-seater stadiums.\n4. The Premier League's record average attendance of 36,144 was set during the 2007–08 season.\n5. The 2013–14 season recorded an average attendance of 36,695, with a total attendance of approximately 14 million, surpassing the 2009–10 record.",
+      "row0_predictions": [
+        "Yes, attendance remittances are important to the Premier League.",
+        "1,000",
+        "The Taylor Report set the deadline for replacing terraces with seats in stadiums in 2015.",
+        "The average attendance for all Premier League clubs during the 2009-10 season was 1,0",
+        "The Premier League set a record average attendance of over 36,000 people during the 201",
+        "1990",
+        "The total attendance of all Premier League games during the 2009-10 season was 1,0",
+        "The average Premier League attendance increased by 1,000,000 attendees between 1992"
+      ]
+    },
+    {
+      "title": "Buckingham Palace",
+      "context": "During World War I, the palace, then the home of King George V and Queen Mary, escaped unscathed. Its more valuable contents were evacuated to Windsor but the royal family remained in situ. The King imposed rationing at the palace, much to the dismay of his guests and household. To the King's later regret, David Lloyd George persuaded him to go further by ostentatiously locking the wine cellars and refraining from alcohol, to set a good example to the supposedly inebriated working class. The workers continued to imbibe and the King was left unhappy at his enforced abstinence. In 1938, the north-west pavilion, designed by Nash as a conservatory, was converted into a swimming pool.",
+      "questions": [
+        {
+          "question": "What did the King give up during the war?",
+          "answer": "alcohol"
+        },
+        {
+          "question": "Where were valuables evacuated to during the war?",
+          "answer": "Windsor"
+        },
+        {
+          "question": "Who convinced the king to lock the wine cellars?",
+          "answer": "David Lloyd George"
+        },
+        {
+          "question": "In what year was the north-west pavilion turned into a swimming pool?",
+          "answer": "1938"
+        },
+        {
+          "question": "Buckingham Palace was untouched during which war?",
+          "answer": "World War I"
+        },
+        {
+          "question": "Who persuaded the king to lock the wine cellars during WWI?",
+          "answer": "David Lloyd George"
+        },
+        {
+          "question": "What was the north-west pavilion converted into in 1938?",
+          "answer": "swimming pool"
+        },
+        {
+          "question": "Who lived at Buckingham Palace during WWI?",
+          "answer": "King George V and Queen Mary"
+        }
+      ],
+      "self_edit": "The list of implications derived directly or indirectly from the passage includes:\n\n1. The palace escaped unscathed during World War I.\n2. The more valuable contents of the palace were evacuated to Windsor, while the royal family remained in situ.\n3. The King imposed rationing at the palace, leading to discontent among guests and household members.\n4. The King's attempt to set a good example by imposing rationing led to his regret.\n5. The King's enforced abstinence led to unhappy workers.\n6. The palace converted the north-west pavilion designed by Nash as a conservatory into a swimming pool in 1938.",
+      "row0_predictions": [
+        "The King gave up the throne during the war.",
+        "Buckingham Palace",
+        "The king convinced the king to lock the wine cellars.",
+        "1913",
+        "World War II",
+        "The British government",
+        "The north-west pavilion was converted into a museum in 1938.",
+        "George V"
+      ]
+    },
+    {
+      "title": "Pharmaceutical industry",
+      "context": "The modern pharmaceutical industry traces its roots to two sources. The first of these were local apothecaries that expanded from their traditional role distributing botanical drugs such as morphine and quinine to wholesale manufacture in the mid 1800s. Rational drug discovery from plants started particularly with the isolation of morphine, analgesic and sleep-inducing agent from opium, by the German apothecary assistant Friedrich Sertürner, who named the compound after the Greek god of dreams, Morpheus. Multinational corporations including Merck, Hoffman-La Roche, Burroughs-Wellcome (now part of Glaxo Smith Kline), Abbott Laboratories, Eli Lilly and Upjohn (now part of Pfizer) began as local apothecary shops in the mid-1800s. By the late 1880s, German dye manufacturers had perfected the purification of individual organic compounds from coal tar and other mineral sources and had also established rudimentary methods in organic chemical synthesis. The development of synthetic chemical methods allowed scientists to systematically vary the structure of chemical substances, and growth in the emerging science of pharmacology expanded their ability to evaluate the biological effects of these structural changes.",
+      "questions": [
+        {
+          "question": "Morphine was named after what Greek god?",
+          "answer": "Morpheus"
+        },
+        {
+          "question": "Who was the compound named after?",
+          "answer": "Morpheus"
+        },
+        {
+          "question": "When was Morphine and Quinine first available?",
+          "answer": "mid 1800s"
+        },
+        {
+          "question": "Who discovered morphine?",
+          "answer": "Friedrich Sertürner"
+        },
+        {
+          "question": "Where were was Morphine extracted from?",
+          "answer": "opium"
+        },
+        {
+          "question": "What is the name of the plant that produces morphine?",
+          "answer": "opium"
+        },
+        {
+          "question": "Who is responsible for purification of compounds found in mineral sources?",
+          "answer": "German dye manufacturers"
+        },
+        {
+          "question": "Who came up with the name Morphine?",
+          "answer": "Friedrich Sertürner"
+        }
+      ],
+      "self_edit": "1. The modern pharmaceutical industry originated from local apothecaries expanding their roles.\n2. The first drug discovered from plants was morphine, an analgesic and sleep-inducing agent.\n3. Multinational corporations like Merck, Hoffmann-La Roche, Burroughs-Wellcome (now part of Glaxo Smith Kline), Abbott Laboratories, Eli Lilly, and Upjohn (now part of Pfizer) started as local apothecary shops in the mid-1800s.\n4. In the late 1880s, German dye manufacturers had perfected the purification of individual organic compounds from coal tar and other mineral sources.\n5. The development of synthetic chemical methods allowed systematic variation of chemical substance structures.\n6. This growth in synthetic chemical methods expanded scientists' ability to evaluate biological effects of structural changes.",
+      "row0_predictions": [
+        "The Greek god of medicine and healing, known as Narcissus, was the inspiration for the name of the drug morph",
+        "The compound named after the pharmaceutical industry is the \"pharmaceutical industry\" itself.",
+        "1800",
+        "The discovery of morphine was made by the French chemist, Antoine-Laurent Lavoisier, in 1",
+        "Morphine was extracted from opium poppy plants.",
+        "Morphine",
+        "Pharmaceutical industry",
+        "The name Morphine was derived from the Greek words \"morph\" meaning \"to change\" and \"ine\" meaning \""
+      ]
+    },
+    {
+      "title": "Germans",
+      "context": "After Christianization, the Roman Catholic Church and local rulers led German expansion and settlement in areas inhabited by Slavs and Balts, known as Ostsiedlung. During the wars waged in the Baltic by the Catholic German Teutonic Knights; the lands inhabited by the ethnic group of the Old Prussians (the current reference to the people known then simply as the \"Prussians\"), were conquered by the Germans. The Old Prussians were an ethnic group related to the Latvian and Lithuanian Baltic peoples. The former German state of Prussia took its name from the Baltic Prussians, although it was led by Germans who had assimilated the Old Prussians; the old Prussian language was extinct by the 17th or early 18th century. The Slavic people of the Teutonic-controlled Baltic were assimilated into German culture and eventually there were many intermarriages of Slavic and German families, including amongst the Prussia's aristocracy known as the Junkers. Prussian military strategist Karl von Clausewitz is a famous German whose surname is of Slavic origin. Massive German settlement led to the assimilation of Baltic (Old Prussians) and Slavic (Wends) populations, who were exhausted by previous warfare.",
+      "questions": [
+        {
+          "question": "Who is a famous German that  name has Slavic origins?",
+          "answer": "Karl von Clausewitz"
+        },
+        {
+          "question": "What happened to the Slavic people of the Baltic?",
+          "answer": "were assimilated into German culture"
+        },
+        {
+          "question": "What famous German military strategist has a name with Slavic origin?",
+          "answer": "Karl von Clausewitz"
+        },
+        {
+          "question": "What let to the assimilation of Baltic and Slavic populations?",
+          "answer": "Massive German settlement"
+        },
+        {
+          "question": "Who was the Old Prussians ethnic group related to?",
+          "answer": "Latvian and Lithuanian Baltic peoples"
+        },
+        {
+          "question": "Who led the German expansion?",
+          "answer": "the Roman Catholic Church and local rulers"
+        },
+        {
+          "question": "Although conquered the Persian language lived on till when?",
+          "answer": "17th or early 18th century"
+        },
+        {
+          "question": "When was the Prussian language extinct?",
+          "answer": "17th or early 18th century"
+        }
+      ],
+      "self_edit": "1. The Catholic Church and local rulers led German expansion and settlement in areas inhabited by Slavs and Balts.\n2. The lands inhabited by the Old Prussians were conquered by Germans during wars waged by the Catholic German Teutonic Knights.\n3. The Old Prussians were an ethnic group related to the Latvian and Lithuanian Baltic peoples.\n4. The former German state of Prussia took its name from the Baltic Prussians, even though it was led by Germans who had assimilated the Old Prussians.\n5. The old Prussian language was extinct by the 17th or early 18th century.\n6. The Slavic people of the Teutonic-controlled Baltic were assimilated into German culture.\n7. There were many intermarriages of Slavic and German families, including among the Prussia's aristocracy.\n8. Prussian military strategist Karl von Clausewitz, known for his surname, is a famous German.\n9. Massive German settlement led to the assimilation of the Baltic (Old Prussians) and Slavic (Wends) populations.",
+      "row0_predictions": [
+        "Walter Gropius",
+        "The Slavic people of the Baltic were assimilated by the Germanic peoples.",
+        "Karl von Clausewitz",
+        "The assimilation of Baltic and Slavic populations was facilitated by the Germanic languages, specifically German, which was the language",
+        "The Old Prussians ethnic group was related to the Germans.",
+        "The German expansion was led by the German Emperor, Wilhelm II.",
+        "1000 years",
+        "1945"
+      ]
+    },
+    {
+      "title": "Buckingham Palace",
+      "context": "The original early 19th-century interior designs, many of which survive, include widespread use of brightly coloured scagliola and blue and pink lapis, on the advice of Sir Charles Long. King Edward VII oversaw a partial redecoration in a Belle Époque cream and gold colour scheme. Many smaller reception rooms are furnished in the Chinese regency style with furniture and fittings brought from the Royal Pavilion at Brighton and from Carlton House. The palace has 775 rooms, and the garden is the largest private garden in London. The state rooms, used for official and state entertaining, are open to the public each year for most of August and September, and on selected days in winter and spring.",
+      "questions": [
+        {
+          "question": "In which style are many of the smaller reception rooms furnished in?",
+          "answer": "Chinese regency style"
+        },
+        {
+          "question": "Who suggested the use of brightly coloured scagliola and blue and pink lapis?",
+          "answer": "Sir Charles Long"
+        },
+        {
+          "question": "Smaller reception rooms are decorated in which style?",
+          "answer": "Chinese regency style"
+        },
+        {
+          "question": "What colors were added in the partial redecoration overseen by King Edward VII?",
+          "answer": "Belle Époque cream and gold"
+        },
+        {
+          "question": "How many rooms does the palace have?",
+          "answer": "775 rooms"
+        },
+        {
+          "question": "What original colors from the 19th century were used on the advice of Sir Charles Long?",
+          "answer": "brightly coloured scagliola and blue and pink lapis"
+        },
+        {
+          "question": "What house were many of the furniture and fittings brought from?",
+          "answer": "Carlton House"
+        },
+        {
+          "question": "Furniture and fittings were brought over from which house?",
+          "answer": "Carlton House"
+        }
+      ],
+      "self_edit": "Based on the passage provided, the following implications can be derived:\n\n1. **Historical and Architectural Influence:**\n   - The original interiors of Buckingham Palace were designed early in the 19th century with influences from Sir Charles Long's advice.\n   - The palace has retained significant historical elements, including brightly colored scagliola and blue and pink lapis.\n\n2. **Historical Period Influence:**\n   - The interior of Buckingham Palace reflects the Belle Époque style, characterized by \"Belle Époque\" colors such as cream and gold.\n\n3. **Artistic and Architectural Aspects:**\n   - Buckingham Palace contains 775 rooms, which is noted as a significant number.\n   - The garden of Buckingham Palace is described as the largest private garden in London.\n\n4. **Use and Accessibility:**\n   - The state rooms are open to the public each year for specific dates, providing access to the palace's interiors.\n   - These rooms are open during August and September for most of the year, and on select days in winter and spring.\n\n5. **Historical Significance:**\n   - The passage emphasizes the historical and architectural significance of Buckingham Palace, highlighting its importance in London's landscape.\n\n6. **Furniture and Decorative Elements:**\n   - The interiors of Buckingham Palace include furniture and fittings from Brighton and Carlton House, indicating a rich collection of art and historical artifacts.\n\nThese implications are derived from the direct and indirect references in the passage, touching on historical design choices, the palace's size, the use of specific colors, its garden, accessibility to the public, and the historical significance of its collections and interiors.",
+      "row0_predictions": [
+        "The style of many of the smaller reception rooms in Buckingham Palace is Victorian.",
+        "The suggestion of using brightly coloured scagliola and blue and pink lapis was made by the British architect and designer,",
+        "The answer is: The style of smaller reception rooms in Buckingham Palace is typically associated with the Victorian era, specifically the period",
+        "The partial redecoration overseen by King Edward VII added the colors of the British flag, which is red, white,",
+        "The Buckingham Palace has 1,000 rooms.",
+        "The original colors used on the advice of Sir Charles Long for the design of Buckingham Palace were a combination of red and green",
+        "Buckingham Palace",
+        "The Buckingham Palace"
+      ]
+    },
+    {
+      "title": "Antibiotics",
+      "context": "The emergence of resistance of bacteria to antibiotics is a common phenomenon. Emergence of resistance often reflects evolutionary processes that take place during antibiotic therapy. The antibiotic treatment may select for bacterial strains with physiologically or genetically enhanced capacity to survive high doses of antibiotics. Under certain conditions, it may result in preferential growth of resistant bacteria, while growth of susceptible bacteria is inhibited by the drug. For example, antibacterial selection for strains having previously acquired antibacterial-resistance genes was demonstrated in 1943 by the Luria–Delbrück experiment. Antibiotics such as penicillin and erythromycin, which used to have a high efficacy against many bacterial species and strains, have become less effective, due to the increased resistance of many bacterial strains.",
+      "questions": [
+        {
+          "question": "What is a modern common occurence with antibiotics?",
+          "answer": "resistance of bacteria"
+        },
+        {
+          "question": "What is resistance to antibiotics a cause of?",
+          "answer": "evolution"
+        },
+        {
+          "question": "When was the Luria-Delbruck experiment?",
+          "answer": "1943"
+        },
+        {
+          "question": "Which two antibiotics that have high efficacy are much less useful now?",
+          "answer": "penicillin and erythromycin"
+        },
+        {
+          "question": "What does emergence of resistance reflect?",
+          "answer": "evolutionary processes"
+        },
+        {
+          "question": "What is the purpose of antibiotic treatment?",
+          "answer": "survive high doses of antibiotics"
+        },
+        {
+          "question": "When was antibacterial-resistance demonstrated?",
+          "answer": "1943"
+        },
+        {
+          "question": "Who made the demonstration in 1943?",
+          "answer": "Luria–Delbrück"
+        }
+      ],
+      "self_edit": "Based on the passage, here are some direct and indirect implications derived directly or indirectly from the content:\n\n1. Antibiotic resistance is a common phenomenon.\n2. The emergence of resistance often reflects evolutionary processes that occur during antibiotic treatment.\n3. Antibiotic treatment may lead to the selection for bacterial strains with enhanced capacity to survive high doses of antibiotics.\n4. It can result in the preferential growth of resistant bacteria while growth of susceptible bacteria is inhibited.\n5. The Luria–Delbrück experiment demonstrates the antibacterial selection for strains with previously acquired resistance genes.\n6. Antibiotics such as penicillin and erythromycin that were previously highly effective are now less effective due to increased resistance in many bacterial strains.\n7. There are implications for healthcare practices involving the use of antibiotics.",
+      "row0_predictions": [
+        "Antibiotics are used to treat bacterial infections.",
+        "Antibiotic resistance is a cause of resistance to antibiotics.",
+        "1942",
+        "Penicillin and tetracycline",
+        "Antibiotic resistance is a phenomenon where bacteria become resistant to antibiotics over time, making it more difficult to treat infections.",
+        "Antibiotic treatment is used to treat bacterial infections caused by bacteria.",
+        "Antibacterial-resistance was demonstrated in the 1980s.",
+        "Antonie van Leeuwenhoek"
+      ]
+    },
+    {
+      "title": "States of Germany",
+      "context": "Germany is a federal republic consisting of sixteen federal states (German: Bundesland, or Land).[a] Since today's Germany was formed from an earlier collection of several states, it has a federal constitution, and the constituent states retain a measure of sovereignty. With an emphasis on geographical conditions, Berlin and Hamburg are frequently called Stadtstaaten (city-states), as is the Free Hanseatic City of Bremen, which in fact includes the cities of Bremen and Bremerhaven. The remaining 13 states are called Flächenländer (literally: area states).",
+      "questions": [
+        {
+          "question": "How many states are in Germany?",
+          "answer": "sixteen"
+        },
+        {
+          "question": "Which cities are called Stadtstaaten, other than Bremen?",
+          "answer": "Berlin and Hamburg"
+        },
+        {
+          "question": "How many states are called \"Flächenländer\"?",
+          "answer": "13"
+        },
+        {
+          "question": "What are Hamburg and Berlin called?",
+          "answer": "Stadtstaaten (city-states)"
+        },
+        {
+          "question": "How many federal states does Germany have?",
+          "answer": "sixteen federal states"
+        },
+        {
+          "question": "What do constituent states still have?",
+          "answer": "measure of sovereignty"
+        },
+        {
+          "question": "The Free Hanseatic City of Bremen includes which two cities?",
+          "answer": "Bremen and Bremerhaven"
+        },
+        {
+          "question": "How many federal states does Germany have?",
+          "answer": "sixteen"
+        }
+      ],
+      "self_edit": "1. Germany is a federal republic.\n2. Germany consists of sixteen federal states.\n3. Today's Germany was formed from an earlier collection of states.\n4. It has a federal constitution.\n5. The constituent states retain a measure of sovereignty.\n6. Berlin and Hamburg are often called Stadtstaaten.\n7. The Free Hanseatic City of Bremen, which includes Bremen and Bremerhaven, is a city-state.",
+      "row0_predictions": [
+        "Germany has 16 states.",
+        "Bremen",
+        "12",
+        "Berlin",
+        "Germany has 16 federal states.",
+        "The constituent states of Germany still have their own unique political systems and laws.",
+        "Bremen and Hamburg",
+        "Germany has 16 federal states."
+      ]
+    },
+    {
+      "title": "Beyoncé",
+      "context": "Her first acting role of 2006 was in the comedy film The Pink Panther starring opposite Steve Martin, grossing $158.8 million at the box office worldwide. Her second film Dreamgirls, the film version of the 1981 Broadway musical loosely based on The Supremes, received acclaim from critics and grossed $154 million internationally. In it, she starred opposite Jennifer Hudson, Jamie Foxx, and Eddie Murphy playing a pop singer based on Diana Ross. To promote the film, Beyoncé released \"Listen\" as the lead single from the soundtrack album. In April 2007, Beyoncé embarked on The Beyoncé Experience, her first worldwide concert tour, visiting 97 venues and grossed over $24 million.[note 1] Beyoncé conducted pre-concert food donation drives during six major stops in conjunction with her pastor at St. John's and America's Second Harvest. At the same time, B'Day was re-released with five additional songs, including her duet with Shakira \"Beautiful Liar\".",
+      "questions": [
+        {
+          "question": "Her second movie Beyonce did was what film?",
+          "answer": "Dreamgirls"
+        },
+        {
+          "question": "Who was Beyonce's duet with in ''Beautiful Liar''?",
+          "answer": "Shakira"
+        },
+        {
+          "question": "What was the lead single for the Dreamgirls soundtrack?",
+          "answer": "Listen"
+        },
+        {
+          "question": "What was the name of Beyoncé's first international tour?",
+          "answer": "The Beyoncé Experience"
+        },
+        {
+          "question": "What pop singer did a duet with Beyoncé on Beautiful Liar?",
+          "answer": "Shakira"
+        },
+        {
+          "question": "How many millions of dollars did ''The Pink Panther'' gross world-wide?",
+          "answer": "158.8 million"
+        },
+        {
+          "question": "What did Beyonce call her first concert tour?",
+          "answer": "The Beyoncé Experience"
+        },
+        {
+          "question": "What movie did Beyonce act in 2006?",
+          "answer": "The Pink Panther"
+        }
+      ],
+      "self_edit": "1. Beyoncé had two notable acting roles in 2006.\n2. \"The Pink Panther\" was her first film role.\n3. Her second role was \"Dreamgirls\", a musical based on the Supremes.\n4. She starred opposite Jennifer Hudson, Jamie Foxx, and Eddie Murphy.\n5. \"Listen\" was released as the lead single from the soundtrack album.\n6. Beyoncé embarked on her first worldwide concert tour, The Beyoncé Experience, in 2007.\n7. The tour grossed over $24 million and was promoted through pre-concert food donation drives.\n8. The tour included six major stops and was accompanied by B'Day being re-released with five additional songs, including her duet with Shakira.\n9. Beyoncé conducted pre-concert food donation drives during six major stops in conjunction with her pastor at St. John's and America's Second Harvest.\n10. In April 2007, Beyoncé performed at the White House to celebrate President Obama's inauguration.",
+      "row0_predictions": [
+        "Beyonce did the film \"The Blacklist\" in 2017.",
+        "Beyoncé and Jay-Z",
+        "\"Can't Stop the Feeling!\"",
+        "Beyoncé's first international tour was the \"Beyoncé Tour.\"",
+        "Ariana Grande",
+        "$1.2 billion",
+        "Beyonce called her first concert tour \"The Beyonce Experience\"",
+        "The movie \"The Queen's Gambit\""
+      ]
+    },
+    {
+      "title": "Premier League",
+      "context": "The Premier League sells its television rights on a collective basis. This is in contrast to some other European Leagues, including La Liga, in which each club sells its rights individually, leading to a much higher share of the total income going to the top few clubs. The money is divided into three parts: half is divided equally between the clubs; one quarter is awarded on a merit basis based on final league position, the top club getting twenty times as much as the bottom club, and equal steps all the way down the table; the final quarter is paid out as facilities fees for games that are shown on television, with the top clubs generally receiving the largest shares of this. The income from overseas rights is divided equally between the twenty clubs.",
+      "questions": [
+        {
+          "question": "How does La Liga sell its broadcasting rights?",
+          "answer": "individually"
+        },
+        {
+          "question": "How is the teleivsion revenue distributed in the Premier League?",
+          "answer": "The money is divided into three parts:"
+        },
+        {
+          "question": "Do European Leagues sell their television rights per a collective level?",
+          "answer": "other European Leagues, including La Liga, in which each club sells its rights individually"
+        },
+        {
+          "question": "What percentage of broadcasting revenue is divided equally by all La Liga clubs?",
+          "answer": "half"
+        },
+        {
+          "question": "How is half of the money distributed?",
+          "answer": "half is divided equally between the clubs"
+        },
+        {
+          "question": "On what sort of basis does the Premier League sell its television rights?",
+          "answer": "collective basis"
+        },
+        {
+          "question": "Which clubs get the greatest share of broadcasting income when rights are sold individually?",
+          "answer": "the top few clubs"
+        },
+        {
+          "question": "How is the final quarter of the money distributed?",
+          "answer": "the final quarter is paid out as facilities fees for games that are shown on television, with the top clubs generally receiving the largest shares of this."
+        }
+      ],
+      "self_edit": "Based on the passage, the following implications can be derived directly or indirectly:\n\n1. **Premier League's Revenue Distribution Model**:\n   - The Premier League sells its television rights on a collective basis.\n   - This model contrasts with European leagues like La Liga, where clubs sell their rights individually.\n   - The resulting distribution is structured into three main parts:\n     - Half of the revenue is divided equally among all clubs.\n     - One quarter is distributed based on final league positions.\n     - The top club gets twenty times more than the bottom club.\n     - The remaining quarter is distributed as facility fees for televised matches.\n   - The income from overseas rights is split equally among the 20 clubs.\n\n2. **Financial Inequality in European Football**:\n   - The Premier League's distribution model places greater financial burden on the top clubs.\n   - Clubs with lower positions in the league generally receive smaller shares of the revenue compared to the top clubs.\n\n3. **Impact of Media Rights on League Structure**:\n   - The revenue generated from television rights is crucial to the structure of the Premier League.\n   - The distribution method affects the overall income and relative position of clubs within the league.\n\n4. **Comparative Analysis with Other European Leagues**:\n   - The Premier League’s system emphasizes collective revenue generation and fair sharing.\n   - By selling rights collectively, the league aims to ensure a more equal share of revenue among participating clubs.\n\n5. **Potential Impact on Competitive Balance**:\n   - The Premier League's revenue model can influence the competitive balance between clubs, as higher revenue does not necessarily correlate with better performance.\n   - This can lead to different interpretations of the “top” clubs' performance relative to their financial capabilities.\n\n6. **Club Financial Dependencies**:\n   - The revenue model makes clubs financially dependent on the success of the league, as they can benefit significantly from the distribution of television rights.\n   - This dependency can influence club strategies and performance to maximize their share of the revenue.\n\n7. **Future Revenue Dynamics**:\n   - The Premier League's model has been influenced by the market dynamics and can adapt to changing conditions.\n   - The league may explore different distribution methods to address any potential issues or improve the revenue structure for clubs.\n\nThese implications highlight the unique financial structure of the Premier League and its impact on the competitive landscape within European football.",
+      "row0_predictions": [
+        "La Liga sells its broadcasting rights through a combination of direct sales and partnerships with other sports organizations.",
+        "The teleivsion revenue in the Premier League is distributed among the following teams: Arsenal, Chelsea, Manchester City,",
+        "yes",
+        "10%",
+        "The money is distributed in the form of a 50/50 split between the Premier League and the Football League",
+        "Premier League television rights are sold on a \"one-time\" basis, meaning that the rights are sold for a specific",
+        "Premier League clubs",
+        "The final quarter of the money distributed in the Premier League is based on the total amount of money collected by the teams in"
+      ]
+    },
+    {
+      "title": "Muammar Gaddafi",
+      "context": "Increasing state control over the oil sector, the RCC began a program of nationalization, starting with the expropriation of British Petroleum's share of the British Petroleum-N.B. Hunt Sahir Field in December 1971. In September 1973, it was announced that all foreign oil producers active in Libya were to be nationalized. For Gaddafi, this was an important step towards socialism. It proved an economic success; while gross domestic product had been $3.8 billion in 1969, it had risen to $13.7 billion in 1974, and $24.5 billion in 1979. In turn, the Libyans' standard of life greatly improved over the first decade of Gaddafi's administration, and by 1979 the average per-capita income was at $8,170, up from $40 in 1951; this was above the average of many industrialized countries like Italy and the U.K.",
+      "questions": [
+        {
+          "question": "In 1979, how much did the average per capita income change for Libyans?",
+          "answer": "by 1979 the average per-capita income was at $8,170, up from $40 in 1951"
+        },
+        {
+          "question": "What was Libya's GDP in 1969?",
+          "answer": "$3.8 billion"
+        },
+        {
+          "question": "In what month and year was a blanket nationalization of foreign oil production proclaimed?",
+          "answer": "September 1973"
+        },
+        {
+          "question": "What company's property did Libya nationalize in December of 1971?",
+          "answer": "British Petroleum"
+        },
+        {
+          "question": "What decision allowed Gaddafi to move Libya closer to socialism?",
+          "answer": "In September 1973, it was announced that all foreign oil producers active in Libya were to be nationalized."
+        },
+        {
+          "question": "In what year did Libya have a GDP of $24.5 billion?",
+          "answer": "1979"
+        },
+        {
+          "question": "How did the RCC begin their march toward nationalization?",
+          "answer": "starting with the expropriation of British Petroleum's share of the British Petroleum-N.B. Hunt Sahir Field in December 1971."
+        },
+        {
+          "question": "What was Libya's per-capita income in 1951?",
+          "answer": "$40"
+        }
+      ],
+      "self_edit": "1. Nationalization of foreign oil companies increased state control over the oil sector.\n2. The program of nationalization proved economically successful by increasing gross domestic product and improving the Libyans' standard of living.\n3. Gaddafi saw this as an important step towards socialism.\n4. The economic improvement led to a significant increase in Libya's standard of life and average per-capita income.",
+      "row0_predictions": [
+        "$1,000",
+        "$1.5 billion",
+        "January 1969",
+        "The company's property that Libya nationalized in December of 1971 was the Libyan National Oil Company (L",
+        "The decision that allowed Gaddafi to move Libya closer to socialism was the establishment of the Libyan Socialist Gaddafi People's Army",
+        "2011",
+        "The RCC began their march toward nationalization by organizing a massive demonstration in the streets of Tripoli, Libya, on October",
+        "$1,000"
+      ]
+    }
+  ]
+}

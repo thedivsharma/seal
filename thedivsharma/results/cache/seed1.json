@@ -1,0 +1,744 @@
+{
+  "seed": 1,
+  "k_articles": 15,
+  "questions_per_article": 8,
+  "model_name": "Qwen/Qwen2.5-0.5B",
+  "self_edit_model": "qwen2.5:1.5b",
+  "articles": [
+    {
+      "title": "Spectre (2015 film)",
+      "context": "Following Garreth Mallory's promotion to M, on a mission in Mexico City unofficially ordered by a posthumous message from the previous M, 007 James Bond kills three men plotting a terrorist bombing during the Day of the Dead and gives chase to Marco Sciarra, an assassin who survived the attack. In the ensuing struggle, Bond steals his ring, which is emblazoned with a stylised octopus, and then kills Sciarra by kicking him out of a helicopter. Upon returning to London, Bond is indefinitely suspended from field duty by M, who is in the midst of a power struggle with C, the head of the privately-backed Joint Intelligence Service, consisting of the recently merged MI5 and MI6. C campaigns for Britain to form alongside 8 other countries \"Nine Eyes \", a global surveillance and intelligence co-operation initiative between nine member states, and uses his influence to close down the '00' section, believing it to be outdated.",
+      "questions": [
+        {
+          "question": "On what holiday do insurgents plan to detonate a bomb?",
+          "answer": "Day of the Dead"
+        },
+        {
+          "question": "Who removed James Bond from active service?",
+          "answer": "M"
+        },
+        {
+          "question": "Who is M's rival?",
+          "answer": "C"
+        },
+        {
+          "question": "What group does C support England joining?",
+          "answer": "Nine Eyes"
+        },
+        {
+          "question": "Which character is promoted to M?",
+          "answer": "Garreth Mallory"
+        },
+        {
+          "question": "Which holiday was the terrorist bombing planned for?",
+          "answer": "Day of the Dead"
+        },
+        {
+          "question": "Which two intelligence groups merged to form Joint Intelligence Service?",
+          "answer": "MI5 and MI6"
+        },
+        {
+          "question": "What does Bond take from Marco Sciarra?",
+          "answer": "his ring"
+        }
+      ],
+      "self_edit": "1. Spectre (2015 film) features James Bond in Mexico City, where he is given a posthumous message and goes on a mission with Marco Sciarra as an assassin.\n2. Bond's skills are put to the test as he kills three men plotting a terrorist bombing during the Day of the Dead.\n3. Bond steals Sciarra's ring, which is emblazoned with a stylised octopus.\n4. Bond kills Sciarra by kicking him out of a helicopter.\n5. Bond is suspended from field duty by M, the head of 00 Section, who is in a power struggle with C, the head of the Joint Intelligence Service.\n6. C campaigns for Britain to form \"Nine Eyes\", a global surveillance and intelligence co-operation initiative between nine member states.\n7. C uses his influence to close down the '00' section, believing it to be outdated.",
+      "row0_predictions": [
+        "Christmas",
+        "James Bond was removed from active service by the British government.",
+        "M's rival is the character of the same name, played by the actor who played the character in the 20",
+        "The group that supports England joining is the United Kingdom.",
+        "The character promoted to M in the 2015 film Spectre is the character of Dr. Edward Hyde,",
+        "Christmas",
+        "The two intelligence groups that merged to form Joint Intelligence Service are the National Security Agency (NSA) and the National Security",
+        "To answer the question, I will follow these steps:\n\n1. Identify the main character in the movie.\n2. Determine"
+      ]
+    },
+    {
+      "title": "Hellenistic period",
+      "context": "Scholars and historians are divided as to what event signals the end of the Hellenistic era. The Hellenistic period may be seen to end either with the final conquest of the Greek heartlands by Rome in 146 BC following the Achean War, with the final defeat of the Ptolemaic Kingdom at the Battle of Actium in 31 BC, or even the move by Roman emperor Constantine the Great of the capital of the Roman Empire to Constantinople in 330 AD. \"Hellenistic\" is distinguished from \"Hellenic\" in that the first encompasses the entire sphere of direct ancient Greek influence, while the latter refers to Greece itself.",
+      "questions": [
+        {
+          "question": "What term defines the influence of Greek culture?",
+          "answer": "Hellenistic"
+        },
+        {
+          "question": "Who was the Roman emporer?",
+          "answer": "Constantine the Great"
+        },
+        {
+          "question": "What is the period called that comprises all Greek influence?",
+          "answer": "Hellenistic"
+        },
+        {
+          "question": "When was the final defeat of the Ptolemaic Kingdom?",
+          "answer": "31 BC"
+        },
+        {
+          "question": "Who moved the Roman Empire capital in 330 AD?",
+          "answer": "Constantine"
+        },
+        {
+          "question": "When did the capital of the Roman Empire move to Constantinople?",
+          "answer": "330 AD"
+        },
+        {
+          "question": "Where did the Roman Empire move to in 330 AD?",
+          "answer": "Constantinople"
+        },
+        {
+          "question": "Which era refers primarily to just Greece?",
+          "answer": "Hellenic"
+        }
+      ],
+      "self_edit": "1. The Hellenistic period can be defined as the period following Alexander the Great's death and the decline of the Hellenistic kingdoms.\n2. The Hellenistic period is characterized by the spread of Greek culture and language throughout the Mediterranean and the Near East.\n3. The end of the Hellenistic period is marked by the defeat of the Ptolemaic Kingdom by the Romans at the Battle of Actium in 31 BC.\n4. The move of the Roman capital from Rome to Constantinople in 330 AD marks the end of the Hellenistic period in a broad sense.\n5. The Hellenistic period is distinguished from the Hellenic period as it encompasses the entire sphere of direct Greek influence, while the Hellenic period refers to Greece itself.\n6. The division of scholars and historians into those who consider 146 BC as the end of the Hellenistic period and those who consider 31 BC as the end of the Hellenistic period reflects the ambiguity of the end of the Hellenistic period.\n7. The end of the Hellenistic period is associated with the rise of Christianity as the dominant religion in the Mediterranean and Near East, which replaced the Greek language and culture.",
+      "row0_predictions": [
+        "Hellenistic period",
+        "Julius Caesar",
+        "Hellenistic period",
+        "198 BC",
+        "The Roman Empire moved the capital in 330 AD to Rome. This was a significant event in the history of",
+        "The capital of the Roman Empire moved to Constantinople in 330 CE.",
+        "The Roman Empire moved to Rome in 330 AD.",
+        "Hellenistic period"
+      ]
+    },
+    {
+      "title": "Charleston, South Carolina",
+      "context": "Founded in 1670 as Charles Town in honor of King Charles II of England, Charleston adopted its present name in 1783. It moved to its present location on Oyster Point in 1680 from a location on the west bank of the Ashley River known as Albemarle Point. By 1690, Charles Town was the fifth-largest city in North America, and it remained among the 10 largest cities in the United States through the 1840 census. With a 2010 census population of 120,083  (and a 2014 estimate of 130,113), current trends put Charleston as the fastest-growing municipality in South Carolina. The population of the Charleston metropolitan area, comprising Berkeley, Charleston, and Dorchester Counties, was counted by the 2014 estimate at 727,689 – the third-largest in the state – and the 78th-largest metropolitan statistical area in the United States.",
+      "questions": [
+        {
+          "question": "What was the originally name of Charleston?",
+          "answer": "Charles Town"
+        },
+        {
+          "question": "What was Charleston's population in 2010?",
+          "answer": "120,083"
+        },
+        {
+          "question": "Where was the city originally located?",
+          "answer": "Albemarle Point"
+        },
+        {
+          "question": "How many people lived in Charleston in 2010?",
+          "answer": "120,083"
+        },
+        {
+          "question": "What year was Charleston founded?",
+          "answer": "1670"
+        },
+        {
+          "question": "Charles Town was named after which king?",
+          "answer": "King Charles II of England"
+        },
+        {
+          "question": "What year was Charleston originally founded?",
+          "answer": "1670"
+        },
+        {
+          "question": "Where was Charleston's first location?",
+          "answer": "Albemarle Point"
+        }
+      ],
+      "self_edit": "1. Charleston is named after King Charles II of England.\n2. Charleston was founded in 1670 as Charles Town.\n3. Charleston adopted its current name in 1783.\n4. Charleston moved to its present location on Oyster Point in 1680 from Albemarle Point on the west bank of the Ashley River.\n5. In 1690, Charles Town was the fifth-largest city in North America.\n6. By the 1840 census, Charles Town remained among the 10 largest cities in the United States.\n7. Charleston is known for its fast-growing population.\n8. The current population of Charleston is 120,083 (2010 census).\n9. The current population estimate of the Charleston metropolitan area is 727,689 (2014 estimate).\n10. Charleston is the third-largest city in the state of South Carolina and the 78th-largest metropolitan statistical area in the United States.",
+      "row0_predictions": [
+        "The original name of Charleston was \"Charleston\"",
+        "2010 population of Charleston, South Carolina was 1,000,000",
+        "The city was originally located in Charleston, South Carolina.",
+        "2010",
+        "1670",
+        "King Charles I",
+        "1670",
+        "The first location of Charleston was in 1670."
+      ]
+    },
+    {
+      "title": "Post-punk",
+      "context": "Nicholas Lezard described post-punk as \"a fusion of art and music\". The era saw the robust appropriation of ideas from literature, art, cinema, philosophy, politics and critical theory into musical and pop cultural contexts. Artists sought to refuse the common distinction between high and low culture and returned to the art school tradition found in the work of artists such as Captain Beefheart and David Bowie. Among major influences on a variety of post-punk artists were writers such as William S. Burroughs and J.G. Ballard, avant-garde political scenes such as Situationism and Dada, and intellectual movements such as postmodernism. Many artists viewed their work in explicitly political terms. Additionally, in some locations, the creation of post-punk music was closely linked to the development of efficacious subcultures, which played important roles in the production of art, multimedia performances, fanzines and independent labels related to the music. Many post-punk artists maintained an anti-corporatist approach to recording and instead seized on alternate means of producing and releasing music. Journalists also became an important element of the culture, and popular music magazines and critics became immersed in the movement.",
+      "questions": [
+        {
+          "question": "How did Nicholas Lezard describe post-punk?",
+          "answer": "fusion of art and music"
+        },
+        {
+          "question": "What intellectual movement informed and influenced a variety of post-punk artists?",
+          "answer": "postmodernism"
+        },
+        {
+          "question": "Why did many post-punk artists produce and release their own music?",
+          "answer": "anti-corporatist"
+        },
+        {
+          "question": "What was an intellectual focus of post-punk?",
+          "answer": "postmodernism"
+        },
+        {
+          "question": "What was Nicholas Lezard's description of post-punk?",
+          "answer": "\"a fusion of art and music\""
+        },
+        {
+          "question": "Which artists were influential in post-punk?",
+          "answer": "Captain Beefheart and David Bowie"
+        },
+        {
+          "question": "Where did post-punk ram its appropriation of ideas into?",
+          "answer": "musical and pop cultural contexts"
+        },
+        {
+          "question": "Which writers helped to influence the post-punk movement?",
+          "answer": "William S. Burroughs and J.G. Ballard"
+        }
+      ],
+      "self_edit": "1. Post-punk is characterized by the fusion of art and music.\n2. Ideas from literature, art, cinema, philosophy, politics, and critical theory were appropriated into the musical and pop cultural contexts of the post-punk era.\n3. Artists sought to reject the common distinction between high and low culture and returned to the tradition found in the work of artists like Captain Beefheart and David Bowie.\n4. Major influences on post-punk artists included writers such as William S. Burroughs and J.G. Ballard, avant-garde political scenes such as Situationism and Dada, and intellectual movements such as postmodernism.\n5. Many post-punk artists viewed their work in explicitly political terms.\n6. In some locations, post-punk music was closely linked to the development of subcultures that played an important role in the production of art, multimedia performances, fanzines, and independent labels related to the music.\n7. Post-punk artists maintained an anti-corporatist approach to recording, seizing on alternate means of producing and releasing music.\n8. Journalists were an important element of the post-punk culture, and popular music magazines and critics became immersed in the movement.",
+      "row0_predictions": [
+        "Post-punk was a subgenre of punk music that emerged in the late 1970s and early",
+        "The intellectual movement that informed and influenced a variety of post-punk artists is postmodernism.",
+        "Many post-punk artists produced and released their own music to gain more control over their creative output and to create a unique",
+        "The intellectual focus of post-punk was on the relationship between art and society, particularly in relation to the rise of punk",
+        "Post-punk was a subgenre of punk music that emerged in the late 1970s and early",
+        "The following artists were influential in post-punk: The Beatles, The Who, The Rolling Stones, The Kinks,",
+        "The Ram's Ram's Ram's Ram's Ram's Ram's Ram's Ram's Ram's Ram's Ram's Ram",
+        "The writers who helped to influence the post-punk movement include:"
+      ]
+    },
+    {
+      "title": "Royal assent",
+      "context": "The power of parliament to pass bills was often thwarted by monarchs. Charles I dissolved parliament in 1629, after it passed motions critical of and bills seeking to restrict his arbitrary exercise of power. During the eleven years of personal rule that followed, Charles performed legally dubious actions, such as raising taxes without parliament's approval. After the English Civil War, it was accepted that parliament should be summoned to meet regularly, but it was still commonplace for monarchs to refuse royal assent to bills. In 1678, Charles II withheld his assent from a bill \"for preserving the Peace of the Kingdom by raising the Militia, and continuing them in Duty for Two and Forty Days,\" suggesting that he, not parliament, should control the militia. The last Stuart monarch, Anne, similarly withheld on 11 March 1708, on the advice of her ministers, her assent from a bill for the settling of Militia in Scotland. No monarch has since withheld royal assent on a bill passed by the British parliament.",
+      "questions": [
+        {
+          "question": "Which monarch was responsible for dissolving parliament in 1629?",
+          "answer": "Charles I"
+        },
+        {
+          "question": "Like Charles II had previously done, the last Stuart monarch withheld assent. Who was this monarch?",
+          "answer": "Anne"
+        },
+        {
+          "question": "What did motions attempt to accomplish that prompted Charles I to dissolve parliament in 1629?",
+          "answer": "restrict his arbitrary exercise of power"
+        },
+        {
+          "question": "When was the last time royal assent was enacted?",
+          "answer": "11 March 1708"
+        },
+        {
+          "question": "Under whose advice did Anne withold the royal assent?",
+          "answer": "her ministers"
+        },
+        {
+          "question": "What is one action this monarch took that is typically left to the discretion of parliament?",
+          "answer": "raising taxes"
+        },
+        {
+          "question": "Which ruler removed parliament in 1629?",
+          "answer": "Charles I"
+        },
+        {
+          "question": "Who was the last monarch to use the royal assent in 1708?",
+          "answer": "Anne"
+        }
+      ],
+      "self_edit": "1. The monarch had the power to dissolve parliament.\n2. Charles I passed bills despite parliament's objections.\n3. During the reign of Charles II and Charles III, monarchs refused to give their consent to bills.\n4. The reign of Charles II was marked by personal rule with questionable legal procedures.\n5. The reign of Charles III was characterized by the monarch withholding assent from bills, suggesting that he should control the militia.\n6. No monarch has withheld royal assent on a bill passed by the British parliament since Anne's reign.\n7. Charles I and Charles III refused to let parliament control military forces.\n8. The monarch was in charge of the royal assent, not parliament.",
+      "row0_predictions": [
+        "King Charles II",
+        "Charles II",
+        "to dissolve parliament",
+        "The last time royal assent was enacted was on 10 December 2019.",
+        "The advice of the House of Commons",
+        "The monarch typically takes no action that is left to the discretion of parliament.",
+        "James VI of Scotland",
+        "George III"
+      ]
+    },
+    {
+      "title": "Genocide",
+      "context": "The word genocide was later included as a descriptive term to the process of indictment, but not yet as a formal legal term According to Lemming, genocide was defined as \"a coordinated strategy to destroy a group of people, a process that could be accomplished through total annihilation as well as strategies that eliminate key elements of the group's basic existence, including language, culture, and economic infrastructure.” He created a concept of mobilizing much of the international relations and community, to working together and preventing the occurrence of such events happening within history and the international society. Australian anthropologist Peg LeVine coined the term \"ritualcide\" to describe the destruction of a group's cultural identity without necessarily destroying its members.",
+      "questions": [
+        {
+          "question": "Prior to being a formal legal term, how was the word \"genocide\" used in an indictment scenario?",
+          "answer": "as a descriptive term"
+        },
+        {
+          "question": "Who ultimately defined genocide as a series of strategies leading up to the annihilation of an entire group?",
+          "answer": "Lemming"
+        },
+        {
+          "question": "Lemming's concept of genocide triggered legal action in which realm?",
+          "answer": "international relations and community"
+        },
+        {
+          "question": "What was the nationality of anthropologist Peg LeVine?",
+          "answer": "Australian"
+        },
+        {
+          "question": "What relative term did LeVine coin to refer to cultural destruction, without the death of its members?",
+          "answer": "\"ritualcide\""
+        },
+        {
+          "question": "What term was coined to describe the destruction of culture?",
+          "answer": "ritualcide"
+        },
+        {
+          "question": "What kind of scientist is Peg LeVine?",
+          "answer": "anthropologist"
+        },
+        {
+          "question": "What elements of group existence, other than people themselves, can be targets of genocide?",
+          "answer": "language, culture, and economic infrastructure"
+        }
+      ],
+      "self_edit": "1. Genocide is a concept of international concern as it was included in a formal legal term, reflecting growing awareness of and concern about the crimes against humanity.\n2. Lemming's definition of genocide includes the destruction of language, culture, and economic infrastructure as part of a coordinated strategy to destroy a group.\n3. The term \"ritualcide\" coined by Peg LeVine describes the destruction of a group's cultural identity without necessarily destroying its members, highlighting the complexity of the concept of genocide.\n4. The concept of genocide is significant in preventing the occurrence of such events happening within history and international society.\n5. The mobilization of international relations and community by Lemming's concept implies the international community's responsibility in preventing the occurrence of such events.\n6. The inclusion of genocide as a formal legal term suggests that the international community recognizes the gravity of such crimes and seeks to prevent them from happening again.\n7. The definition of genocide by Lemming includes both total annihilation and strategies that eliminate key elements of the group's basic existence, highlighting the multidimensional nature of the concept.\n8. The concept of genocide is rooted in anthropology, with Lemming emphasizing the importance of understanding the complex social dynamics involved in such events.\n9. Lemming's concept of mobilizing international relations and community highlights the need for cooperation among nations to prevent the occurrence of such events.\n10. The focus on prevention in Lemming's definition implies the international community's commitment to addressing the root causes of such events, rather than just responding to their aftermath.",
+      "row0_predictions": [
+        "The word \"genocide\" was used in an indictment scenario to describe a systematic and planned act of violence against a specific",
+        "The term \"genocide\" was first used by the United Nations in 1948 to describe the systematic destruction",
+        "The United Nations",
+        "American",
+        "genocide",
+        "genocide",
+        "Geneticist",
+        "Genocide can target any group, other than people themselves, as a means of achieving its goals."
+      ]
+    },
+    {
+      "title": "American Idol",
+      "context": "In what was to become a tradition, Clarkson performed the coronation song during the finale, and released the song immediately after the season ended. The single, \"A Moment Like This\", went on to break a 38-year-old record held by The Beatles for the biggest leap to number one on the Billboard Hot 100. Guarini did not release any song immediately after the show and remains the only runner-up not to do so. Both Clarkson and Guarini made a musical film, From Justin to Kelly, which was released in 2003 but was widely panned. Clarkson has since become the most successful Idol contestant internationally, with worldwide album sales of more than 23 million.",
+      "questions": [
+        {
+          "question": "What song did Kelly Clarkson perform during the finale?",
+          "answer": "A Moment Like This"
+        },
+        {
+          "question": "What was the name of the film that the two finalists made together?",
+          "answer": "From Justin to Kelly"
+        },
+        {
+          "question": "How many albums has Kelly Clarkson sold around the world?",
+          "answer": "more than 23 million"
+        },
+        {
+          "question": "What was the fist song released by Kelly Clarkson after winning American Idol?",
+          "answer": "A Moment Like This"
+        },
+        {
+          "question": "How many worldwide album sales has Kelly Clarkson had since winning Idol?",
+          "answer": "more than 23 million"
+        },
+        {
+          "question": "What was the name of the song?",
+          "answer": "A Moment Like This"
+        },
+        {
+          "question": "What did Clarkson sing during the finale?",
+          "answer": "the coronation song"
+        },
+        {
+          "question": "What film did Kelly Clarkson and Justin Guarini star in after they were on American Idol?",
+          "answer": "From Justin to Kelly"
+        }
+      ],
+      "self_edit": "1. American Idol tradition of holding coronation song performance during the finale.\n2. Clarkson released \"A Moment Like This\" immediately after the season ended, breaking the 38-year-old record by The Beatles for the biggest leap to number one on the Billboard Hot 100.\n3. Guarini did not release any song immediately after the show, making her the only runner-up not to do so.\n4. Both Clarkson and Guarini made a musical film called \"From Justin to Kelly\" in 2003.\n5. Clarkson has since become the most successful Idol contestant internationally, with worldwide album sales of more than 23 million.",
+      "row0_predictions": [
+        "\"Love Me Like You Do\"",
+        "American Idol",
+        "100 million",
+        "\"Let's Get It On\"",
+        "100 million",
+        "American Idol",
+        "\"Let's Get It\"",
+        "American Idol"
+      ]
+    },
+    {
+      "title": "IPod",
+      "context": "In September 2007, during a lawsuit with patent holding company Burst.com, Apple drew attention to a patent for a similar device that was developed in 1979. Kane Kramer applied for a UK patent for his design of a \"plastic music box\" in 1981, which he called the IXI. He was unable to secure funding to renew the US$120,000 worldwide patent, so it lapsed and Kramer never profited from his idea.",
+      "questions": [
+        {
+          "question": "Apple was involved in a lawsuit with which company in 2007?",
+          "answer": "Burst.com"
+        },
+        {
+          "question": "Who previously applied for a patent for an iPod-like device?",
+          "answer": "Kane Kramer"
+        },
+        {
+          "question": "In what country did Kane Kramer apply for his patent?",
+          "answer": "UK"
+        },
+        {
+          "question": "In what year did Kane Kramer apply for his patent?",
+          "answer": "1981"
+        },
+        {
+          "question": "What did Kane Kramer call the device for which he wanted a patent?",
+          "answer": "IXI"
+        },
+        {
+          "question": "What patent holding company sued Apple in 2007?",
+          "answer": "Burst.com"
+        },
+        {
+          "question": "What was the name of the previously-patented music player from 1981?",
+          "answer": "IXI"
+        },
+        {
+          "question": "Who was the holder of the previous patent for the \"plastic music box\"?",
+          "answer": "Kane Kramer"
+        }
+      ],
+      "self_edit": "I'm sorry, but I'm not able to generate implications from a given passage. As an AI language model, I don't produce creative or thought-provoking ideas as my primary function is to answer factual questions and provide language-related assistance.",
+      "row0_predictions": [
+        "Apple was involved in a lawsuit with Sony in 2007.",
+        "Apple",
+        "United States",
+        "2000",
+        "The device Kane Kramer called the device for which he wanted a patent was the iPod.",
+        "Apple Inc.",
+        "Apple iPod",
+        "The holder of the previous patent for the \"plastic music box\" was the United States Patent and Trademark Office ("
+      ]
+    },
+    {
+      "title": "Pharmaceutical industry",
+      "context": "Drug discovery is the process by which potential drugs are discovered or designed. In the past most drugs have been discovered either by isolating the active ingredient from traditional remedies or by serendipitous discovery. Modern biotechnology often focuses on understanding the metabolic pathways related to a disease state or pathogen, and manipulating these pathways using molecular biology or biochemistry. A great deal of early-stage drug discovery has traditionally been carried out by universities and research institutions.",
+      "questions": [
+        {
+          "question": "Who is usually responsible for early stages of drug discovery?",
+          "answer": "universities and research institutions"
+        },
+        {
+          "question": "What is the name of the process in which possible drugs are discovered?",
+          "answer": "Drug discovery"
+        },
+        {
+          "question": "What kind of technology studies the understanding and manipulation of disease states and pathogens?",
+          "answer": "biotechnology"
+        },
+        {
+          "question": "What groups carry out most early drug discoveries?",
+          "answer": "research institutions"
+        },
+        {
+          "question": "What focuses on metabolic pathways?",
+          "answer": "biotechnology"
+        },
+        {
+          "question": "What is involved in drug discovery?",
+          "answer": "isolating the active ingredient from traditional remedies or by serendipitous discovery"
+        },
+        {
+          "question": "What is used to manipulate pathways?",
+          "answer": "molecular biology or biochemistry"
+        },
+        {
+          "question": "What is a drug discovery?",
+          "answer": "the process by which potential drugs are discovered or designed"
+        }
+      ],
+      "self_edit": "Implications:\n1. Traditional drug discovery methods have limitations.\n2. Modern drug discovery focuses on understanding and manipulating metabolic pathways.\n3. Universities and research institutions are essential for early-stage drug discovery.",
+      "row0_predictions": [
+        "Pharmaceutical industry",
+        "Pharmaceutical discovery",
+        "Pharmaceutical industry",
+        "Pharmaceutical industry",
+        "Metabolic pathways",
+        "Drug discovery involves the identification, evaluation, and development of potential new drugs for the treatment of diseases. This process typically involves",
+        "Drug",
+        "Drug discovery is the process of identifying, developing, and testing potential new drugs to treat, prevent, or cure diseases."
+      ]
+    },
+    {
+      "title": "USB",
+      "context": "The design architecture of USB is asymmetrical in its topology, consisting of a host, a multitude of downstream USB ports, and multiple peripheral devices connected in a tiered-star topology. Additional USB hubs may be included in the tiers, allowing branching into a tree structure with up to five tier levels. A USB host may implement multiple host controllers and each host controller may provide one or more USB ports. Up to 127 devices, including hub devices if present, may be connected to a single host controller. USB devices are linked in series through hubs. One hub—built into the host controller—is the root hub.",
+      "questions": [
+        {
+          "question": "The design of the USB is asymmetrical in its what?",
+          "answer": "topology"
+        },
+        {
+          "question": "How many USB ports may a host controller provide?",
+          "answer": "one or more USB ports"
+        },
+        {
+          "question": "A USB host may implement how many host controllers?",
+          "answer": "multiple"
+        },
+        {
+          "question": "What HUB is built into the host controller?",
+          "answer": "the root hub"
+        },
+        {
+          "question": "What hub is built into the host controller?",
+          "answer": "the root hub"
+        },
+        {
+          "question": "How many devices can be connected to a host controller?",
+          "answer": "Up to 127 devices"
+        },
+        {
+          "question": "How are USB devices linked?",
+          "answer": "in series through hubs"
+        },
+        {
+          "question": "The design of USB is asymmetrical in what?",
+          "answer": "its topology"
+        }
+      ],
+      "self_edit": "1. **Host Device and Host Controller Relationship**: The passage indicates that the host device is responsible for managing multiple USB ports through host controllers, which in turn connects to up to 127 devices, including hub devices, ensuring they are all interconnected in series.\n\n2. **Topology Design**: The USB design is inherently asymmetrical with a host at the core, connected to downstream ports and peripheral devices through a tiered-star topology. This design allows for flexible connection and branching, potentially forming complex hierarchical structures through the inclusion of additional USB hubs.\n\n3. **Support for Multiple Hosts**: The passage highlights that a USB host can implement multiple host controllers, allowing for better parallel processing and management capabilities, which could be particularly useful in scenarios requiring high throughput or load balancing.\n\n4. **Tree Structure**: The inclusion of multiple USB hubs at different levels supports the concept of a tree structure, providing an additional layer of flexibility in device connection and management.\n\n5. **Hierarchical Communication**: The linkage of devices through hubs ensures that communication is processed in a series manner, which might be crucial in situations requiring sequential handling of data or commands.\n\n6. **Power Management**: Although not explicitly mentioned, the design of USB suggests a system where power distribution is managed centrally, likely via the host controller, enabling more efficient power management compared to alternative serial communication protocols.\n\n7. **Scalability**: The design allows for significant scalability as the number of devices and hubs can be increased without a proportional increase in complexity, thus supporting growing network needs efficiently.\n\n8. **Innovation in Peripheral Devices**: The ability to connect a large number of devices through multiple layers suggests an innovative approach to peripheral connectivity, potentially enabling the creation of more versatile and powerful devices with fewer physical limitations.\n\n9. **Future-Proofing**: The design allows for the inclusion of additional hubs at each tier, indicating that the architecture is modular and can be expanded without significant redesign, preparing for future technological advancements or increased device requirements.\n\n10. **Error Handling Mechanism**: Given that devices are linked in series, this topology might imply that the system is designed to handle data loss gracefully by re-establishing connections when a device fails or becomes disconnected.\n\n11. **Integration with Other Protocols**: The USB design could be compatible with other protocols, facilitating seamless integration with existing hardware and potentially enabling USB devices to work with systems that use different types of communication protocols.\n\n12. **Efficiency in Data Processing**: The series connection of devices through hubs suggests an efficient approach to processing and transmitting data, potentially reducing latency",
+      "row0_predictions": [
+        "The design of the USB is asymmetrical in its interface.",
+        "10",
+        "two",
+        "USB hub",
+        "USB hub",
+        "1000",
+        "USB devices are linked through a protocol called the Universal Serial Bus (USB) protocol.",
+        "The design of USB is asymmetrical in the way it is designed to be used."
+      ]
+    },
+    {
+      "title": "Sexual orientation",
+      "context": "Androphilia and gynephilia (or gynecophilia) are terms used in behavioral science to describe sexual attraction, as an alternative to a homosexual and heterosexual conceptualization. They are used for identifying a subject's object of attraction without attributing a sex assignment or gender identity to the subject. Related terms such as pansexual and polysexual do not make any such assignations to the subject. People may also use terms such as queer, pansensual, polyfidelitous, ambisexual, or personalized identities such as byke or biphilic.",
+      "questions": [
+        {
+          "question": "What are the terms androphilia and gynephial use for?",
+          "answer": "identifying a subject's object of attraction without attributing a sex assignment or gender identity to the subject"
+        },
+        {
+          "question": "What are other terms that do not make similar assignments?",
+          "answer": "pansexual and polysexual"
+        },
+        {
+          "question": "Which terms are used in describing sexual desires?",
+          "answer": "Androphilia and gynephilia (or gynecophilia"
+        },
+        {
+          "question": "What are other common words that people may use for homosexual and heterosexual people?",
+          "answer": "queer, pansensual, polyfidelitous, ambisexual, or personalized identities such as byke or biphilic."
+        },
+        {
+          "question": "What are two other words for androphilia and gynephlia?",
+          "answer": "homosexual and heterosexual"
+        },
+        {
+          "question": "These terms are an alternative to what conceptualization?",
+          "answer": "to a homosexual and heterosexual conceptualization"
+        },
+        {
+          "question": "What are other terms used in the same vein as pansexual?",
+          "answer": "queer, pansensual, polyfidelitous, ambisexual"
+        },
+        {
+          "question": "What are these terms not attributing to the subject/person being described?",
+          "answer": "a sex assignment or gender identity"
+        }
+      ],
+      "self_edit": "Here are the implications derived directly or indirectly from the passage:\n\n1. **Sexual Orientation Terminology**:\n   - **Implication**: The use of terms like androphilia, gynephilia, and gynecophilia to describe sexual attraction is an alternative approach to traditional notions of homosexuality and heterosexuality.\n   - **Implication**: These terms are used to identify someone’s sexual orientation without assigning a specific sex or gender identity to the individual.\n\n2. **Cultural and Social Context**:\n   - **Implication**: The adoption of these terms indicates a shift in the way sexual orientation is understood and discussed within behavioral science and beyond.\n   - **Implication**: This shift reflects a broader societal shift towards inclusivity and avoiding stereotypes.\n\n3. **LGBTQ+ Identity Exploration**:\n   - **Implication**: The discussion on sexual orientation provides an opportunity to explore and recognize different identities beyond binary gender roles.\n   - **Implication**: It opens up conversations about diverse sexual orientations and non-traditional gender identities.\n\n4. **Cultural and Social Impact**:\n   - **Implication**: The use of these terms can influence how people perceive and identify with their sexual orientation.\n   - **Implication**: It can also challenge traditional norms and promote acceptance and inclusivity in various settings.\n\n5. **Psychological and Social Health**:\n   - **Implication**: Acknowledging and understanding different sexual orientations can contribute to improved mental health and social wellbeing.\n   - **Implication**: It may reduce stigma and provide support for individuals who might face societal pressure or discrimination based on their sexual orientation.\n\n6. **Legal and Policy Context**:\n   - **Implication**: The recognition of alternative terms for sexual orientation could influence legal and policy frameworks related to sexual orientation.\n   - **Implication**: It could help in creating more inclusive and fair laws and policies.\n\n7. **Research and Education**:\n   - **Implication**: The discussion on these terms can contribute to advancements in sexual orientation research and education.\n   - **Implication**: It can help in creating comprehensive sexual education programs that respect diverse identities.\n\n8. **Identity Exploration and Self-Expression**:\n   - **Implication**: The use of alternative terms can facilitate a deeper exploration of identity and self-expression.\n   - **Implication**: It encourages individuals to find the terms that resonate most with their personal experience and preferences.\n\n9. **Historical and Political Context**:\n   - **Implication**: The evolution of terminology reflects the broader historical and political contexts",
+      "row0_predictions": [
+        "sexual orientation",
+        "sexual orientation",
+        "sexual orientation",
+        "homosexual, heterosexual",
+        "androphilia, gynephilia",
+        "Sexual orientation",
+        "pansexual",
+        "sexual orientation"
+      ]
+    },
+    {
+      "title": "Pharmaceutical industry",
+      "context": "In 1903 Hermann Emil Fischer and Joseph von Mering disclosed their discovery that diethylbarbituric acid, formed from the reaction of diethylmalonic acid, phosphorus oxychloride and urea, induces sleep in dogs. The discovery was patented and licensed to Bayer pharmaceuticals, which marketed the compound under the trade name Veronal as a sleep aid beginning in 1904. Systematic investigations of the effect of structural changes on potency and duration of action led to the discovery of phenobarbital at Bayer in 1911 and the discovery of its potent anti-epileptic activity in 1912. Phenobarbital was among the most widely used drugs for the treatment of epilepsy through the 1970s, and as of 2014, remains on the World Health Organizations list of essential medications. The 1950s and 1960s saw increased awareness of the addictive properties and abuse potential of barbiturates and amphetamines and led to increasing restrictions on their use and growing government oversight of prescribers. Today, amphetamine is largely restricted to use in the treatment of attention deficit disorder and phenobarbital in the treatment of epilepsy.",
+      "questions": [
+        {
+          "question": "Who discovered a reaction that induced sleep in dogs?",
+          "answer": "Hermann Emil Fischer and Joseph von Mering"
+        },
+        {
+          "question": "What is phenobarbital mainly used to treat today?",
+          "answer": "epilepsy"
+        },
+        {
+          "question": "What was Veronal used for when Bayer put it on the market?",
+          "answer": "sleep aid"
+        },
+        {
+          "question": "What was the first trade name of diethylbarbituric acid?",
+          "answer": "Veronal"
+        },
+        {
+          "question": "In what year was phenobarbital discovered?",
+          "answer": "1911"
+        },
+        {
+          "question": "Why was barbiturates and amphetamines restricted?",
+          "answer": "addictive properties and abuse potential"
+        },
+        {
+          "question": "What is amphetamine used for today?",
+          "answer": "attention deficit disorder"
+        },
+        {
+          "question": "What compound was discovered to induce sleep?",
+          "answer": "diethylbarbituric acid"
+        }
+      ],
+      "self_edit": "1. **Discovery and Patenting:** The passage highlights the discovery of diethylbarbituric acid by Hermann Emil Fischer and Joseph von Mering in 1903, which was patented and licensed to Bayer pharmaceuticals.\n\n2. **Bayer's Market Introduction:** Bayer began marketing the compound under the trade name Veronal as a sleep aid in 1904, indicating Bayer's strategic marketing approach to market new discoveries.\n\n3. **Phenobarbital's Discovery and Application:** Bayer later discovered phenobarbital in 1911, leading to its potent anti-epileptic activity in 1912. This led to significant advancements in epilepsy treatment.\n\n4. **Phenobarbital's Usage:** Phenobarbital became one of the most widely used drugs for the treatment of epilepsy from the 1950s through the 1970s, suggesting its wide-ranging impact on medical treatments and patient care.\n\n5. **Government Oversight and Restriction:** The passage reflects on the regulatory changes in the 1950s and 1960s, specifically mentioning increased awareness of the addictive properties and abuse potential of barbiturates and amphetamines, leading to restrictions on their use and growing government oversight of prescribers.\n\n6. **Phenobarbital's Current Status:** As of 2014, phenobarbital remains on the World Health Organization’s list of essential medications, indicating its continued importance and necessity in medical treatments.\n\n7. **Prescription Monitoring and Restrictions:** The historical context indicates that restrictions on amphetamines and phenobarbital usage have been a response to public health concerns, reflecting the evolving role of pharmaceuticals in public health and regulatory practices.\n\nThese implications highlight the significant advancements and regulatory changes that have occurred in the pharmaceutical industry, from early discoveries and patenting to later restrictions and the impact on patient care and public health.",
+      "row0_predictions": [
+        "The discovery of a reaction that induced sleep in dogs is attributed to the German chemist and physician Carl von Linde.",
+        "Phenobarbital is mainly used to treat seizures.",
+        "To answer this question, I will follow these steps:\n\n1. Identify the topic: The topic is \"Pharmaceutical",
+        "Diethylbarbituric acid was the first trade name of the drug.",
+        "1874",
+        "to prevent abuse",
+        "Amphetamine is used today as a stimulant and mood stabilizer.",
+        "Methamphetamine"
+      ]
+    },
+    {
+      "title": "New Haven, Connecticut",
+      "context": "The city has many distinct neighborhoods. In addition to Downtown, centered on the central business district and the Green, are the following neighborhoods: the west central neighborhoods of Dixwell and Dwight; the southern neighborhoods of The Hill, historic water-front City Point (or Oyster Point), and the harborside district of Long Wharf; the western neighborhoods of Edgewood, West River, Westville, Amity, and West Rock-Westhills; East Rock, Cedar Hill, Prospect Hill, and Newhallville in the northern side of town; the east central neighborhoods of Mill River and Wooster Square, an Italian-American neighborhood; Fair Haven, an immigrant community located between the Mill and Quinnipiac rivers; Quinnipiac Meadows and Fair Haven Heights across the Quinnipiac River; and facing the eastern side of the harbor, The Annex and East Shore (or Morris Cove).",
+      "questions": [
+        {
+          "question": "Between two of it's rivers lies a district with a heavy immigrant population, the name is?",
+          "answer": "Fair Haven"
+        },
+        {
+          "question": "What area of New Haven comprises the area centered around the business district and New Haven Green?",
+          "answer": "Downtown"
+        },
+        {
+          "question": "What is the name of the neighborhood in New Haven that rests between the Mill and Quinnipiac rivers, and is comprised primarily of an immigrant community?",
+          "answer": "Fair Haven"
+        },
+        {
+          "question": "Wooster Square is known for what roots?",
+          "answer": "Italian-American"
+        },
+        {
+          "question": "What east-central neighborhood in New Haven is home to a large number of Italian-Americans?",
+          "answer": "Wooster Square"
+        },
+        {
+          "question": "If you were to go northern part of New Haven, what district would you find?",
+          "answer": "Newhallville"
+        },
+        {
+          "question": "What is the name of the district nearing the harbor of the city?",
+          "answer": "Long Wharf"
+        },
+        {
+          "question": "Though the Green is the popular center of the city, there is another district, what's the name?",
+          "answer": "central business district"
+        }
+      ],
+      "self_edit": "1. The city has distinct neighborhoods within it.\n2. The Green is the central business district and a significant feature.\n3. Downtown is centered around the central business district.\n4. The city is divided into various neighborhoods, each with its own characteristics.\n5. The Hill is a southern neighborhood.\n6. Waterfront areas are part of several neighborhoods, including City Point, Long Wharf, and Oyster Point.\n7. Edgewood, West River, Westville, Amity, and West Rock-Westhills are western neighborhoods.\n8. The northern side of town includes neighborhoods like East Rock, Cedar Hill, Prospect Hill, and Newhallville.\n9. Fair Haven is an immigrant community located between the Mill and Quinnipiac rivers.\n10. Quinnipiac Meadows and Fair Haven Heights are situated across the Quinnipiac River.\n11. The East Shore, or Morris Cove, faces the eastern side of the harbor.\n12. The area between Downtown and the eastern side of the harbor includes the New Haven community and the New Haven Community College.\n13. The neighborhoods are arranged in a grid pattern, with certain streets crossing each other.\n14. The city has a diverse population with immigrants and people of Italian descent in certain areas.\n15. The area surrounding the harbor is referred to as the Annex, Morris Cove, or East Shore.\n16. The neighborhoods have different historical and cultural influences, with some areas being more historically significant than others.",
+      "row0_predictions": [
+        "New Haven",
+        "New Haven, Connecticut",
+        "New Haven",
+        "The roots of Wooster Square are the Wooster Street and the Wooster Street Bridge.",
+        "New Haven, Connecticut",
+        "New Haven, Connecticut",
+        "New Haven",
+        "New Haven"
+      ]
+    },
+    {
+      "title": "Westminster Abbey",
+      "context": "Between 1042 and 1052 King Edward the Confessor began rebuilding St Peter's Abbey to provide himself with a royal burial church. It was the first church in England built in the Romanesque style. The building was not completed until around 1090 but was consecrated on 28 December 1065, only a week before Edward's death on 5 January 1066. A week later he was buried in the church, and nine years later his wife Edith was buried alongside him. His successor, Harold II, was probably crowned in the abbey, although the first documented coronation is that of William the Conqueror later the same year.",
+      "questions": [
+        {
+          "question": "What was the date of the Abbey's coronation?",
+          "answer": "28 December 1065"
+        },
+        {
+          "question": "When did King Edward the Confessor die?",
+          "answer": "5 January 1066"
+        },
+        {
+          "question": "Who was the first recorded coronation at the Abbey?",
+          "answer": "William the Conqueror"
+        },
+        {
+          "question": "What architectural design was St Peter's abbey considered?",
+          "answer": "Romanesque style"
+        },
+        {
+          "question": "What year was the building finished?",
+          "answer": "1090"
+        },
+        {
+          "question": "What King restored the Abbey in the years 1042 and 1052?",
+          "answer": "King Edward the Confessor"
+        },
+        {
+          "question": "Who rebuilt the abbey for a burial church?",
+          "answer": "King Edward the Confessor"
+        },
+        {
+          "question": "When was the building consecrated?",
+          "answer": "28 December 1065"
+        }
+      ],
+      "self_edit": "1. **Romanesque Architecture Introduction**: The passage introduces the concept of Romanesque architecture as the first church built in England to follow the Romanesque style.\n\n2. **Timing of Construction**: It mentions the period between 1042 and 1052, indicating a long-term plan or urgency to build the abbey, likely related to the King's intentions for a royal burial site.\n\n3. **Timeline of Completion and Consecration**: The structure was not completed until 1090 but was consecrated early, providing evidence of progress and the eventual completion date.\n\n4. **Historical Context**: The event in 1065 was part of a sequence of events following King Edward the Confessor's death, highlighting the significance of this date in the historical timeline of the British Isles.\n\n5. **Royal Burial Practices**: The passage implies the importance of royal burials, connecting the construction of a church to a king’s desire to be interred there.\n\n6. **Political Stability and Crown’s Power**: The coronation event might be indicative of political stability and the power of the crown, suggesting that the royal presence could be a key moment in the coronation of new kings or regents.\n\n7. **Family Legacy and Memorials**: The preservation and commemoration of family members posthumously, as seen in the burials of King Edward and Queen Edith, indicate a focus on familial memory and continuity.\n\n8. **Cultural Influence**: The presence of the church at this historical point influenced future royal ceremonies, such as the coronation of William the Conqueror, indicating a broader cultural and political impact.\n\n9. **Historical Significance**: The building of Westminster Abbey in Romanesque style provides insight into the architectural changes that were occurring in England at the time, marking a transition in English church architecture.\n\n10. **Ceremonial Importance**: The passage suggests that a royal coronation or inauguration might have taken place at this site, highlighting its potential as a ceremonial venue for important ceremonies.\n\nThese implications highlight the historical significance of Westminster Abbey and its connection to key figures and moments in British history.",
+      "row0_predictions": [
+        "1558",
+        "King Edward the Confessor died on 25 May 1066.",
+        "Henry VIII",
+        "St Peter's abbey was considered a Gothic Revival style.",
+        "1225",
+        "Henry II",
+        "The abbey was rebuilt for a burial church by the Church of England.",
+        "1537"
+      ]
+    },
+    {
+      "title": "Insect",
+      "context": "The higher-level phylogeny of the arthropods continues to be a matter of debate and research. In 2008, researchers at Tufts University uncovered what they believe is the world's oldest known full-body impression of a primitive flying insect, a 300 million-year-old specimen from the Carboniferous period. The oldest definitive insect fossil is the Devonian Rhyniognatha hirsti, from the 396-million-year-old Rhynie chert. It may have superficially resembled a modern-day silverfish insect. This species already possessed dicondylic mandibles (two articulations in the mandible), a feature associated with winged insects, suggesting that wings may already have evolved at this time. Thus, the first insects probably appeared earlier, in the Silurian period.",
+      "questions": [
+        {
+          "question": "A University discovered a primitive flying what?",
+          "answer": "insect"
+        },
+        {
+          "question": "What higher-level is constantly up for debate and research?",
+          "answer": "phylogeny"
+        },
+        {
+          "question": "How old is the primitive plying insect found by the University?",
+          "answer": "300 million-year-old"
+        },
+        {
+          "question": "What is the term for a mandible with two articulations?",
+          "answer": "dicondylic"
+        },
+        {
+          "question": "In what year did Tufts researchers reportedly uncover what is believed to be the oldest known impression of a flying insect?",
+          "answer": "2008"
+        },
+        {
+          "question": "With what type of insect is a dicondylic mandible associated?",
+          "answer": "winged"
+        },
+        {
+          "question": "From what period do researchers believe that the oldest known full-body impression of a flying insect originates?",
+          "answer": "Carboniferous"
+        },
+        {
+          "question": "What is believed to be the oldest known insect fossil?",
+          "answer": "Devonian Rhyniognatha hirsti"
+        }
+      ],
+      "self_edit": "1. The exact evolutionary timeline and phylogenetic relationships within the arthropod family tree are still being researched and debated.\n2. The 300 million-year-old specimen of a primitive flying insect from the Carboniferous period was identified as the world's oldest known full-body impression of a primitive flying insect.\n3. The oldest definitive insect fossil is the Devonian Rhyniognatha hirsti, which is believed to be from the 396-million-year-old Rhynie chert.\n4. This fossil suggests that wings may have already evolved at this time, possibly predating the development of modern insect wings.\n5. The fossil suggests that insects possessed dicondylic mandibles, a feature associated with winged insects, indicating that they had developed wings before they appeared as modern insects.\n6. The discovery of this fossil helps to support the idea that insects evolved significantly earlier than previously thought, possibly in the Silurian period.",
+      "row0_predictions": [
+        "Insect",
+        "Insect",
+        "100 million years",
+        "mandible",
+        "1999",
+        "Insect",
+        "The oldest known full-body impression of a flying insect, which is believed to originate from the fossil record, is from the",
+        "Insect"
+      ]
+    }
+  ]
+}

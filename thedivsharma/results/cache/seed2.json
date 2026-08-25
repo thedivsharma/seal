@@ -1,0 +1,744 @@
+{
+  "seed": 2,
+  "k_articles": 15,
+  "questions_per_article": 8,
+  "model_name": "Qwen/Qwen2.5-0.5B",
+  "self_edit_model": "qwen2.5:1.5b",
+  "articles": [
+    {
+      "title": "Hunting",
+      "context": "Unarmed fox hunting on horseback with hounds is the type of hunting most closely associated with the United Kingdom; in fact, \"hunting\" without qualification implies fox hunting. What in other countries is called \"hunting\" is called \"shooting\" (birds) or \"stalking\" (deer) in Britain. Originally a form of vermin control to protect livestock, fox hunting became a popular social activity for newly wealthy upper classes in Victorian times and a traditional rural activity for riders and foot followers alike. Similar to fox hunting in many ways is the chasing of hares with hounds. Pairs of Sight hounds (or long-dogs), such as greyhounds, may be used to pursue a hare in coursing, where the greyhounds are marked as to their skill in coursing the hare (but are not intended to actually catch it), or the hare may be pursued with scent hounds such as beagles or harriers. Other sorts of foxhounds may also be used for hunting stags (deer) or mink. Deer stalking with rifles is carried out on foot without hounds, using stealth.",
+      "questions": [
+        {
+          "question": "How is deer stalking with rifles carried out?",
+          "answer": "on foot without hounds, using stealth"
+        },
+        {
+          "question": "Why were foxes originally hunted?",
+          "answer": "form of vermin control to protect livestock"
+        },
+        {
+          "question": "What type of hunting is most closely associated with the UK?",
+          "answer": "fox hunting"
+        },
+        {
+          "question": "Hounds were used for what purpose?",
+          "answer": "to pursue"
+        },
+        {
+          "question": "What hunting is done on horseback with hounds?",
+          "answer": "fox"
+        },
+        {
+          "question": "How do the English hunt foxes?",
+          "answer": "on horseback with hounds"
+        },
+        {
+          "question": "What is carried out on foot without hounds?",
+          "answer": "Deer stalking"
+        },
+        {
+          "question": "In England, what is hunted when \"shooting\" is called for?",
+          "answer": "birds"
+        }
+      ],
+      "self_edit": "Here is a list of implications derived directly or indirectly from the passage:\n\n1. Fox hunting on horseback with hounds is most closely associated with the United Kingdom.\n2. \"Hunting\" in the UK is often referred to as \"fox hunting\" even when other animals are hunted.\n3. Fox hunting has evolved from a method of controlling vermin to a popular social activity for the wealthy in Victorian times.\n4. It was originally meant to protect livestock and was later used as a form of entertainment and sport.\n5. Similar activities include coursing (hunting with hounds) and stalking (hunting without hounds).\n6. Deer hunting is conducted with sight hounds like greyhounds, while scent hounds like beagles and harriers are used for pursuing hares.\n7. Stalking with rifles is practiced without the use of hounds, primarily for hunting stags or mink.\n8. Foxhounds can be used to hunt stags (deer).\n9. Other types of foxhounds can be utilized for hunting stags or mink.\n10. Deer stalking is often conducted on foot.\n11. The passage suggests that these traditional hunting practices continue to be associated with rural activities.",
+      "row0_predictions": [
+        "The deer stalking with rifles carried out is a method of hunting in which a person or animal is led by a rifleman",
+        "Foxes were originally hunted for their fur.",
+        "hunting",
+        "Hounds were used for hunting.",
+        "hunting",
+        "The English hunt foxes using a variety of methods, including:\n\n1. **Hunting by the Land**: This involves",
+        "hunting",
+        "hunting"
+      ]
+    },
+    {
+      "title": "Modern history",
+      "context": "Society in the Japanese \"Tokugawa period\" (Edo society), unlike the shogunates before it, was based on the strict class hierarchy originally established by Toyotomi Hideyoshi. The daimyo, or lords, were at the top, followed by the warrior-caste of samurai, with the farmers, artisans, and traders ranking below. In some parts of the country, particularly smaller regions, daimyo and samurai were more or less identical, since daimyo might be trained as samurai, and samurai might act as local lords. Otherwise, the largely inflexible nature of this social stratification system unleashed disruptive forces over time. Taxes on the peasantry were set at fixed amounts which did not account for inflation or other changes in monetary value. As a result, the tax revenues collected by the samurai landowners were worth less and less over time. This often led to numerous confrontations between noble but impoverished samurai and well-to-do peasants, ranging from simple local disturbances to much bigger rebellions. None, however, proved compelling enough to seriously challenge the established order until the arrival of foreign powers.",
+      "questions": [
+        {
+          "question": "What was society in  the Tokugawa period based in?",
+          "answer": "strict class hierarchy"
+        },
+        {
+          "question": "What effect did the way the taxes were charged have on it's revenue.",
+          "answer": "revenues collected by the samurai landowners were worth less and less over time."
+        },
+        {
+          "question": "What is the Tokugawa period also known as?",
+          "answer": "Edo society"
+        },
+        {
+          "question": "What effect did  having taxes charged at a fixed amount have on it's revenue?",
+          "answer": "tax revenues collected by the samurai landowners were worth less and less over time."
+        },
+        {
+          "question": "How were taxes charged during the Tukugawa period?",
+          "answer": "set at fixed amounts"
+        },
+        {
+          "question": "How were taxes charged in the Tokugawa period?",
+          "answer": "set at fixed amounts"
+        },
+        {
+          "question": "What group were considered to be at the top of the Strict Class Hierarchy?",
+          "answer": "The daimyo, or lords"
+        },
+        {
+          "question": "What was society based on during the Tukugawa period?",
+          "answer": "strict class hierarchy"
+        }
+      ],
+      "self_edit": "1. The strict class hierarchy in the Tokugawa period society was originally established by Toyotomi Hideyoshi.\n2. Daimyo were at the top of the social hierarchy, followed by samurai, with farmers, artisans, and traders ranking below.\n3. In some regions, especially smaller areas, daimyo and samurai could be roughly equal, as daimyo could train as samurai, and samurai could act as local lords.\n4. The inflexible nature of the social stratification system unleashed disruptive forces over time.\n5. Taxes on the peasantry were set at fixed amounts, which did not account for inflation or changes in monetary value.\n6. As a result, the tax revenues collected by the samurai landowners were worth less and less over time.\n7. This often led to confrontations between noble but impoverished samurai and well-to-do peasants, ranging from simple local disturbances to bigger rebellions.\n8. None, however, proved compelling enough to seriously challenge the established order until the arrival of foreign powers.",
+      "row0_predictions": [
+        "The Tokugawa period was based in the Japanese feudal society.",
+        "The way the taxes were charged had a significant impact on the country's revenue.",
+        "The Tokugawa period is also known as the Edo period.",
+        "taxation at a fixed amount had a negative effect on the revenue of a country.",
+        "Taxes were charged during the Tukugawa period in Japan, which was a period of feudalism.",
+        "The Tokugawa period saw a significant increase in taxes, which were often levied on the wealthy and powerful.",
+        "The Strict Class Hierarchy was considered to be at the top of the hierarchy.",
+        "The Tukugawa period was based on the samurai class, which was a hierarchical system of power and authority within"
+      ]
+    },
+    {
+      "title": "Hunting",
+      "context": "Even as animal domestication became relatively widespread and after the development of agriculture, hunting was usually a significant contributor to the human food supply. The supplementary meat and materials from hunting included protein, bone for implements, sinew for cordage, fur, feathers, rawhide and leather used in clothing. Man's earliest hunting weapons would have included rocks, spears, the atlatl, and bows and arrows. Hunting is still vital in marginal climates, especially those unsuited for pastoral uses or agriculture.[citation needed] For example, Inuit people in the Arctic trap and hunt animals for clothing and use the skins of sea mammals to make kayaks, clothing, and footwear.",
+      "questions": [
+        {
+          "question": "What was a significant contributor to the human food supply?",
+          "answer": "hunting"
+        },
+        {
+          "question": "Hunt was a significant contributor to what?",
+          "answer": "human food supply"
+        },
+        {
+          "question": "Rocks and spears are examples of some of man's earliest what?",
+          "answer": "hunting weapons"
+        },
+        {
+          "question": "What was the leather from hunting used for?",
+          "answer": "clothing"
+        },
+        {
+          "question": "Where is hunting still vital?",
+          "answer": "marginal climates"
+        },
+        {
+          "question": "Where is hunting still vital?",
+          "answer": "marginal climates"
+        },
+        {
+          "question": "Why is hunting still vital in marginal climates?",
+          "answer": "unsuited for pastoral uses or agriculture"
+        },
+        {
+          "question": "How are the skins of sea mammals useful for people in the Arctic trap?",
+          "answer": "make kayaks, clothing, and footwear"
+        }
+      ],
+      "self_edit": "Here are the implications derived directly and indirectly from the passage:\n\nDirect Implications:\n1. Hunting was an important source of food for early human populations.\n2. Hunting provided supplementary protein and materials for tools and clothing.\n3. In marginal climates, particularly cold and unfertile areas, hunting remains crucial for survival and resource utilization.\n4. The technology and methods of hunting varied between cultures and geographical locations, including spears, atlatl, and bows and arrows.\n\nIndirect Implications:\n1. The evolution of human societies and technologies was influenced by their relationship with wildlife and natural resources.\n2. Cultural practices and traditions have incorporated the principles of hunting and gathering into their daily lives and spiritual beliefs.\n3. The impact of hunting on human behavior and social structures is evident in practices such as trap and tool-making techniques.\n4. The influence of hunting practices on material culture and economic activities can be observed in areas where hunting is an essential part of the local economy or subsistence strategy.",
+      "row0_predictions": [
+        "Hunting was a significant contributor to the human food supply.",
+        "The answer is hunting.",
+        "Agricultural tools",
+        "Hunting leather was used for various purposes, including clothing, footwear, and accessories. It was often used to make clothing",
+        "Hunting is still vital in many parts of the world.",
+        "Hunting is still vital in many parts of the world.",
+        "Hunting is still vital in marginal climates because it provides a source of food and income for people, which can help to",
+        "The skins of sea mammals are useful for people in the Arctic trap in the following ways:\n\n1. Hunting: Sea mammals"
+      ]
+    },
+    {
+      "title": "Red",
+      "context": "Red is the color at the end of the spectrum of visible light next to orange and opposite violet. Red color has a predominant light wavelength of roughly 620–740 nanometres. Red is one of the additive primary colors of visible light, along with green and blue, which in Red Green Blue (RGB) color systems are combined to create all the colors on a computer monitor or television screen. Red is also one of the subtractive primary colors, along with yellow and blue, of the RYB color space and traditional color wheel used by painters and artists.",
+      "questions": [
+        {
+          "question": "What color is beside red in the visible spectrum of light?",
+          "answer": "orange"
+        },
+        {
+          "question": "Which color is red next to on the spectrum of visible light?",
+          "answer": "orange"
+        },
+        {
+          "question": "How many nanometres does red have?",
+          "answer": "roughly 620–740"
+        },
+        {
+          "question": "Which two colors besides red make up the RGB color system?",
+          "answer": "Green Blue"
+        },
+        {
+          "question": "Red is opposite what color of the spectrum?",
+          "answer": "violet"
+        },
+        {
+          "question": "Which color is opposite of red on the visible spectrum?",
+          "answer": "violet"
+        },
+        {
+          "question": "Red Yellow and Blue are what kind of colors?",
+          "answer": "subtractive primary colors"
+        },
+        {
+          "question": "What spectrum of light is red within?",
+          "answer": "visible light"
+        }
+      ],
+      "self_edit": "Implications derived directly or indirectly from the passage include:\n\n1. Red is located at the end of the visible light spectrum, between orange and violet.\n2. The wavelength of red color is approximately 620–740 nanometres.\n3. Red is a primary color in additive color systems, used in creating various shades on computer monitors and televisions.\n4. Red is also a primary color in subtractive color systems, contributing to the colors produced by mixing it with yellow and blue.\n5. Red is situated next to orange on the spectrum and opposite to violet.\n6. Red is primarily associated with the color wheel used in traditional color design by painters and artists.",
+      "row0_predictions": [
+        "blue",
+        "Red",
+        "1000 nanometres",
+        "green and blue",
+        "blue",
+        "blue",
+        "Red, Yellow, and Blue are all primary colors.",
+        "Red is a color on the electromagnetic spectrum."
+      ]
+    },
+    {
+      "title": "Beyoncé",
+      "context": "On March 30, 2015, it was announced that Beyoncé is a co-owner, with various other music artists, in the music streaming service Tidal. The service specialises in lossless audio and high definition music videos. Beyoncé's husband Jay Z acquired the parent company of Tidal, Aspiro, in the first quarter of 2015. Including Beyoncé and Jay-Z, sixteen artist stakeholders (such as Kanye West, Rihanna, Madonna, Chris Martin, Nicki Minaj and more) co-own Tidal, with the majority owning a 3% equity stake. The idea of having an all artist owned streaming service was created by those involved to adapt to the increased demand for streaming within the current music industry, and to rival other streaming services such as Spotify, which have been criticised for their low payout of royalties. \"The challenge is to get everyone to respect music again, to recognize its value\", stated Jay-Z on the release of Tidal.",
+      "questions": [
+        {
+          "question": "When was it announced that Beyonce was  a co-owner in Tidal?",
+          "answer": "March 30, 2015"
+        },
+        {
+          "question": "What music streaming system is Beyoncé part owner of?",
+          "answer": "Tidal."
+        },
+        {
+          "question": "What is a criticism of other streaming services?",
+          "answer": "low payout of royalties"
+        },
+        {
+          "question": "Who acquired the parent company of the music service Beyoncé owns part of?",
+          "answer": "Jay Z"
+        },
+        {
+          "question": "What is the parent company of the music service Beyoncé owns part of?",
+          "answer": "Aspiro"
+        },
+        {
+          "question": "The parent company of Tidal became under the ownership of whom in 2015?",
+          "answer": "Jay Z"
+        },
+        {
+          "question": "What kind of service is Tidal?",
+          "answer": "music streaming service"
+        },
+        {
+          "question": "What music service is accused of providing low royalty amounts?",
+          "answer": "Spotify"
+        }
+      ],
+      "self_edit": "1. Beyoncé and her husband, Jay-Z, acquired Tidal, which was owned by a parent company called Aspiro.\n2. Tidal is a music streaming service that specialises in lossless audio and high-definition music videos.\n3. Sixteen music artists are involved as stakeholders in Tidal, including Beyoncé, Jay-Z, Kanye West, Rihanna, Madonna, Chris Martin, Nicki Minaj, and more.\n4. The co-ownership of Tidal is a response to the growing demand for streaming services within the music industry.\n5. The creation of Tidal was aimed at competing with Spotify, a popular streaming service that has been criticized for low royalty payouts.\n6. The challenge faced by Beyoncé, Jay-Z, and the other stakeholders in the streaming service industry is to \"get everyone to respect music again, to recognize its value.\"\n7. Tidal is the result of collaborations among various music artists to create an all-artist-owned streaming service that would rival Spotify.",
+      "row0_predictions": [
+        "2016",
+        "Beyoncé is part owner of Spotify.",
+        "Beyoncé's popularity is not as high as it once was",
+        "Beyoncé acquired the parent company of the music service she owns part of, which is the company that owns the music",
+        "Apple",
+        "The parent company of Tidal became under the ownership of The Recording Company in 2015.",
+        "Tidal is a streaming music service that offers a wide range of music, including music from artists like Beyoncé.",
+        "The music service accused of providing low royalty amounts is Spotify."
+      ]
+    },
+    {
+      "title": "Frédéric Chopin",
+      "context": "Two Polish friends in Paris were also to play important roles in Chopin's life there. His fellow student at the Warsaw Conservatory, Julian Fontana, had originally tried unsuccessfully to establish himself in England; Albert Grzymała, who in Paris became a wealthy financier and society figure, often acted as Chopin's adviser and \"gradually began to fill the role of elder brother in [his] life.\" Fontana was to become, in the words of Michałowski and Samson, Chopin's \"general factotum and copyist\".",
+      "questions": [
+        {
+          "question": "Which friend of Chopin became like an older brother to him?",
+          "answer": "Albert Grzymała"
+        },
+        {
+          "question": "Julian Fontana tried to find his way where before moving to Paris?",
+          "answer": "England"
+        },
+        {
+          "question": "Which friend took on the role of several jobs to help Chopin including copyist?",
+          "answer": "Julian Fontana"
+        },
+        {
+          "question": "Where were Chopin and Fontana students together?",
+          "answer": "Warsaw Conservatory"
+        },
+        {
+          "question": "Where did Julian Fontana fail to get established?",
+          "answer": "England"
+        },
+        {
+          "question": "Who is stated as a jack of all trades in service to Frédéric?",
+          "answer": "Julian Fontana"
+        },
+        {
+          "question": "Who was Frédéric's trusted adviser while in Paris?",
+          "answer": "Albert Grzymała"
+        },
+        {
+          "question": "Who did Chopin know that became rich in Paris?",
+          "answer": "Albert Grzymała"
+        }
+      ],
+      "self_edit": "1. Chopin's fellow student at the Warsaw Conservatory, Julian Fontana, played an important role in Chopin's life in Paris.\n2. Julian Fontana originally tried unsuccessfully to establish himself in England, but eventually became a wealthy financier and society figure in Paris.\n3. Albert Grzymała, who in Paris became a wealthy financier and society figure, often acted as Chopin's adviser.\n4. Albert Grzymała gradually began to fill the role of an elder brother in Chopin's life.\n5. Julian Fontana and Albert Grzymała were two important Polish friends who had an impact on Chopin's life.\n6. Julian Fontana became Chopin's \"general factotum and copyist\" in Paris.",
+      "row0_predictions": [
+        "Fanny Mendelssohn",
+        "Paris",
+        "The friend who took on the role of several jobs to help Chopin include copyist was his brother, Frédéric",
+        "The students of Frédéric Chopin and Franz Anton Fontana were together in Paris.",
+        "The French composer and pianist Julian Fontana failed to establish himself in the world of classical music.",
+        "Frédéric Chopin",
+        "Frédéric Chopin's trusted adviser while in Paris was his brother, Frédéric Chopin.",
+        "The person who became rich in Paris was Frédéric Chopin. He was a famous Polish composer who lived in Paris"
+      ]
+    },
+    {
+      "title": "Frédéric Chopin",
+      "context": "During 1824–28 Chopin spent his vacations away from Warsaw, at a number of locales.[n 4] In 1824 and 1825, at Szafarnia, he was a guest of Dominik Dziewanowski, the father of a schoolmate. Here for the first time he encountered Polish rural folk music. His letters home from Szafarnia (to which he gave the title \"The Szafarnia Courier\"), written in a very modern and lively Polish, amused his family with their spoofing of the Warsaw newspapers and demonstrated the youngster's literary gift.",
+      "questions": [
+        {
+          "question": "What was the title chopin gave of some spoof letters he wrote?",
+          "answer": "The Szafarnia Courier"
+        },
+        {
+          "question": "What did Frédéric write parodies of in his letters?",
+          "answer": "Warsaw newspapers"
+        },
+        {
+          "question": "Where did Chopin spend his vacation in 1824 and 1825?",
+          "answer": "Szafarnia"
+        },
+        {
+          "question": "To whom did Frédéric write letters to during his stay in Szafarnia?",
+          "answer": "his family"
+        },
+        {
+          "question": "What was the name of the person who hosted Chopin as a guest when he discovered Polish rural folk music?",
+          "answer": "Dominik Dziewanowski"
+        },
+        {
+          "question": "What type of music did Chopin discover for the first time while staying in Szafarnia?",
+          "answer": "Polish rural folk music"
+        },
+        {
+          "question": "During his vacation in 1824 and 1825 who did Chopin spend his vacation with?",
+          "answer": "Dominik Dziewanowski"
+        },
+        {
+          "question": "In which village did Frédéric first experience rural Polish folk music?",
+          "answer": "Szafarnia"
+        }
+      ],
+      "self_edit": "Implications derived directly or indirectly from the content include:\n\n1. Frédéric Chopin was a talented pianist who spent his vacations at various locations in Poland.\n2. Chopin was introduced to Polish rural folk music for the first time during his stay in Szafarnia.\n3. Chopin's letters, which were sent to his family, were written in a modern and lively Polish language, demonstrating his literary talent.\n4. Chopin spent his vacation in Szafarnia, where he was a guest of Dominik Dziewanowski.\n5. Chopin was a guest of a schoolmate's father in Szafarnia in 1824 and 1825.\n6. Chopin wrote his letters from Szafarnia and sent them to his family, where they were received with amusement and admiration for his literary skills and his clever use of the local language.\n7. The letters included parodying the Warsaw newspapers and were received with laughter, indicating that Chopin was a talented writer who could make people laugh.\n8. Chopin's literary skill was evident not only in his musical compositions but also in his ability to use the local language and write amusing letters to his family.\n9. Chopin's literary skill was recognized by his family, which shows that his talent was appreciated and valued.\n10. The content suggests that Chopin's early exposure to Polish folk music and language laid the foundation for his later accomplishments as a composer and musician.\n11. The passage implies that Chopin's writing skills were not limited to writing music but also included the ability to use the local language effectively and creatively.\n12. The passage suggests that Chopin's talent was recognized and appreciated by people outside his immediate family, indicating that he was a talented individual who was capable of entertaining and surprising others.\n13. The passage indicates that Chopin's early exposure to Polish culture and language were important in shaping his future achievements and that these experiences helped him to develop as a talented musician and writer.",
+      "row0_predictions": [
+        "\"Chopin's Letters\"",
+        "The letters Frédéric wrote to his friends and family in the 1830s and 184",
+        "The answer is 1824 and 1825",
+        "Frédéric Chopin",
+        "Frédéric Chopin",
+        "Chopin discovered music for the first time while staying in Szafarnia.",
+        "Frédéric Chopin spent his vacation with his wife, Nelly.",
+        "Kołobrzeg"
+      ]
+    },
+    {
+      "title": "Russian Soviet Federative Socialist Republic",
+      "context": "Under the leadership of Vladimir Lenin, the Bolsheviks established the Soviet state on 7 November [O.S. 25 October] 1917, immediately after the Russian Provisional Government, which governed the Russian Republic, was overthrown during the October Revolution. Initially, the state did not have an official name and wasn't recognized by neighboring countries for five months. Meanwhile, anti-Bolsheviks coined the mocking label \"Sovdepia\" for the nascent state of the \"Soviets of Workers' and Peasants' Deputies\".",
+      "questions": [
+        {
+          "question": "For how long did the Soviet Union go unrecognized?",
+          "answer": "five months"
+        },
+        {
+          "question": "Who was the leader of the Bolsheviks in 1917?",
+          "answer": "Vladimir Lenin"
+        },
+        {
+          "question": "What name did people opposed to the Bolsheviks use for the Soviet state?",
+          "answer": "Sovdepia"
+        },
+        {
+          "question": "What derisive label was given to the USSR by the enemies of the Bolsheviks?",
+          "answer": "Sovdepia"
+        },
+        {
+          "question": "What body was overthrown by the October Revolution?",
+          "answer": "Russian Provisional Government"
+        },
+        {
+          "question": "How long did the new Russian Soviet state go unrecognized by other countries?",
+          "answer": "five months"
+        },
+        {
+          "question": "Who led the group which created the Soviet state?",
+          "answer": "Vladimir Lenin"
+        },
+        {
+          "question": "Which group originally created the Soviet state?",
+          "answer": "the Bolsheviks"
+        }
+      ],
+      "self_edit": "Here are the implications derived directly or indirectly from the passage:\n\n1. **Foundation of a New Government System:**\n   - The passage describes how Vladimir Lenin and the Bolsheviks established the Soviet state on 7 November 1917.\n   - This implies that a new governmental system, based on Marxist principles, was formed under Bolshevik leadership.\n\n2. **Transition of Power:**\n   - The text mentions that \"Russian Provisional Government, which governed the Russian Republic\" was overthrown during the October Revolution.\n   - This suggests a successful transition of power from one government to another, with the Bolsheviks replacing the Provisional Government.\n\n3. **Recognition by Neighboring Countries:**\n   - The passage states that initially, the Soviet state \"didn't have an official name and wasn't recognized by neighboring countries for five months.\"\n   - This implies a significant challenge in the early stages of the new government's recognition and legitimacy.\n\n4. **Labeling by Anti-Bolsheviks:**\n   - The text describes how anti-Bolsheviks coined the label \"Sovdepia\" for the newly formed Soviet state.\n   - This indicates the skepticism or derision of the non-Bolsheviks toward the new government's official name and recognition.\n\n5. **Immediate Actions After the Fall of the Provisional Government:**\n   - The passage describes the state's official creation alongside the fall of the Provisional Government during the October Revolution.\n   - This suggests an immediate and rapid establishment of power following the overthrow of the Provisional Government.\n\n6. **Initial Uncertainty and Challenges:**\n   - The text mentions that initially, the state didn't have an official name and didn't receive recognition from neighboring countries.\n   - This implies that there were initial challenges and uncertainties in establishing a new government and obtaining international recognition.\n\nThese implications collectively describe the establishment of the Soviet state under Bolshevik leadership and the challenges faced by the new government in its formation and recognition.",
+      "row0_predictions": [
+        "The Soviet Union was recognized by the United Nations for 10 years.",
+        "Vladimir Lenin",
+        "Soviet Union",
+        "The USSR was referred to as the \"Little Satan\" by the enemies of the Bolsheviks.",
+        "The Russian Soviet Federative Socialist Republic was overthrown by the October Revolution.",
+        "The new Russian Soviet state was recognized by other countries for a short period of time, but it was not recognized by all",
+        "Fascist dictator Joseph Stalin",
+        "The original group that created the Soviet state was the Russian Soviet Federative Socialist Republic."
+      ]
+    },
+    {
+      "title": "Muammar Gaddafi",
+      "context": "The coup completed, the RCC proceeded with their intentions of consolidating the revolutionary government and modernizing the country. They purged monarchists and members of Idris' Senussi clan from Libya's political world and armed forces; Gaddafi believed this elite were opposed to the will of the Libyan people and had to be expunged. \"People's Courts\" were founded to try various monarchist politicians and journalists, and though many were imprisoned, none were executed. Idris was sentenced to execution in absentia.",
+      "questions": [
+        {
+          "question": "How many people were executed by the People's Courts?",
+          "answer": "none"
+        },
+        {
+          "question": "How did Gaddafi view the elite?",
+          "answer": "Gaddafi believed this elite were opposed to the will of the Libyan people and had to be expunged."
+        },
+        {
+          "question": "What clan was King Idris part of?",
+          "answer": "Senussi"
+        },
+        {
+          "question": "Along with the Senussi, who was purged from the military?",
+          "answer": "monarchists"
+        },
+        {
+          "question": "What happened to the monarchists and and journalists?",
+          "answer": "\"People's Courts\" were founded to try various monarchist politicians and journalists, and though many were imprisoned, none were executed."
+        },
+        {
+          "question": "Along with journalists, who was tried in the People's Courts?",
+          "answer": "monarchist politicians"
+        },
+        {
+          "question": "What happened to Idris?",
+          "answer": "Idris was sentenced to execution in absentia."
+        },
+        {
+          "question": "What sentence was given to the absent King Idris?",
+          "answer": "execution"
+        }
+      ],
+      "self_edit": "The following are the implications derived directly or indirectly from the passage:\n\n1. Gaddafi viewed monarchists and members of the Idris' Senussi clan as opponents to the Libyan people.\n2. Gaddafi sought to purge these individuals from Libya's political and military spheres.\n3. The \"People's Courts\" were established to prosecute monarchist politicians and journalists.\n4. Many monarchists were imprisoned, but none were executed.\n5. Idris was sentenced to execution in absentia.\n\nImplications:\n1. The establishment of \"People's Courts\" suggests a regime that prioritizes certain types of justice (people's justice) over traditional legal systems.\n2. Gaddafi's regime was characterized by a high degree of violence, with executions by firing squad and imprisonment.\n3. The purge of monarchists and Idris' supporters was a significant departure from previous Libyan leadership, reflecting the transition to a Marxist system.\n4. The modernization of Libya was a priority for Gaddafi's regime, as evidenced by the appointment of a Council of Representatives (RCC).\n5. The creation of \"People's Courts\" was a form of governance that prioritized the interests of the regime's elite over those of the people.",
+      "row0_predictions": [
+        "100,000",
+        "Gaddafi viewed the elite as a threat to the Libyan people.",
+        "The King of Libya, Idris, was part of the Muammar Gaddafi clan.",
+        "Muammar Gaddafi",
+        "The monarchists and journalists were killed by the Libyan government.",
+        "Muammar Gaddafi",
+        "Idris was killed by the Libyan government.",
+        "The King of Libya, Idris, was absent from the meeting."
+      ]
+    },
+    {
+      "title": "2008 Sichuan earthquake",
+      "context": "The Red Cross Society of China flew 557 tents and 2,500 quilts valued at 788,000 yuan (US$113,000) to Wenchuan County. The Amity Foundation already began relief work in the region and has earmarked US$143,000 for disaster relief. The Sichuan Ministry of Civil Affairs said that they have provided 30,000 tents for those left homeless.",
+      "questions": [
+        {
+          "question": "How many tents did the Sichuan Ministry provide for the homeless?",
+          "answer": "30,000"
+        },
+        {
+          "question": "What county were the supplies flown to?",
+          "answer": "Wenchuan County"
+        },
+        {
+          "question": "How many tents did the Sichuan Ministry of Affairs provide?",
+          "answer": "30,000"
+        },
+        {
+          "question": "What foundation had already begun relief work in the area?",
+          "answer": "The Amity Foundation"
+        },
+        {
+          "question": "How much were both supplies worth?",
+          "answer": "788,000 yuan"
+        },
+        {
+          "question": "How much has the Amity Foundation designated for disaster relief?",
+          "answer": "US$143,000"
+        },
+        {
+          "question": "How many tents were flown to the region?",
+          "answer": "557"
+        },
+        {
+          "question": "How many quilts were flown to the region?",
+          "answer": "2,500"
+        }
+      ],
+      "self_edit": "1. The Red Cross Society of China provided aid to those affected by the earthquake.\n2. The Amity Foundation initiated relief work in the region.\n3. The Sichuan Ministry of Civil Affairs supplied tents to those left homeless.\n4. The disaster has caused significant damage to those affected, necessitating assistance.\n5. Relief efforts are coordinated across multiple organizations and government agencies.\n6. The Chinese government has responded promptly and effectively to the earthquake.\n7. The earthquake resulted in significant losses, including the destruction of housing and materials.\n8. There is a need for continued support and assistance for those in need of relief.\n9. International organizations and foundations play a crucial role in providing aid during times of crisis.\n10. The earthquake highlights the importance of preparedness and the need for better infrastructure in earthquake-prone areas.",
+      "row0_predictions": [
+        "2008 Sichuan earthquake",
+        "Chongqing",
+        "200,000 tents",
+        "The foundation that had already begun relief work in the area was the Chinese Red Cross.",
+        "$100 million",
+        "$100 million",
+        "200",
+        "2008 Sichuan earthquake"
+      ]
+    },
+    {
+      "title": "Bermuda",
+      "context": "Bermuda's pink sand beaches and clear, cerulean blue ocean waters are popular with tourists. Many of Bermuda's hotels are located along the south shore of the island. In addition to its beaches, there are a number of sightseeing attractions. Historic St George's is a designated World Heritage Site. Scuba divers can explore numerous wrecks and coral reefs in relatively shallow water (typically 30–40 ft or 9–12 m in depth), with virtually unlimited visibility. Many nearby reefs are readily accessible from shore by snorkellers, especially at Church Bay.",
+      "questions": [
+        {
+          "question": "What directional shore of Bermuda is home to the majority of its hotels?",
+          "answer": "the south shore of the island"
+        },
+        {
+          "question": "What odd color of sand draws tourists to Bermuda's beaches?",
+          "answer": "pink"
+        },
+        {
+          "question": "What makes Bermuda a popular tourist destination?",
+          "answer": "pink sand beaches and clear, cerulean blue ocean waters"
+        },
+        {
+          "question": "Why is Bermuda a great place for snorkellers?",
+          "answer": "Many nearby reefs are readily accessible from shore"
+        },
+        {
+          "question": "What has St. George been designated as?",
+          "answer": "World Heritage Site"
+        },
+        {
+          "question": "Where are the majority of Bermuda's hotels?",
+          "answer": "south shore of the island"
+        },
+        {
+          "question": "Bermuda's coral reefs, shipwrecks, and shallow waters are great for what activity in particular?",
+          "answer": "Scuba"
+        },
+        {
+          "question": "Why are divers attracted to Bermuda?",
+          "answer": "numerous wrecks and coral reefs in relatively shallow water"
+        }
+      ],
+      "self_edit": "1. Bermuda is known for its pink sand beaches.\n2. The clear, cerulean blue ocean waters of Bermuda are attractive to tourists.\n3. Bermuda has several hotels along the south shore.\n4. Bermuda has designated World Heritage Site.\n5. Historic St George's attracts visitors.\n6. Scuba divers can explore wrecks and coral reefs in shallow water.\n7. There are numerous sightseeing attractions in Bermuda.\n8. The area near Church Bay is easily accessible for snorkelling.",
+      "row0_predictions": [
+        "The majority of Bermuda's hotels are located on the western side of the island, which is known as the \"Berm",
+        "The odd color of sand that draws tourists to Bermuda's beaches is white.",
+        "Bermuda is a popular tourist destination due to its beautiful beaches, vibrant culture, and diverse wildlife.",
+        "Bermuda is a great place for snorkellers due to its diverse marine life, clear waters, and beautiful beaches.",
+        "St. George's is a town in Bermuda.",
+        "Bermuda is a country located in the Atlantic Ocean, and it is home to a variety of hotels. Some of",
+        "Scuba diving",
+        "Bermuda is a popular destination for divers due to its diverse marine life, stunning coral reefs, and abundant marine life"
+      ]
+    },
+    {
+      "title": "Post-punk",
+      "context": "The innovative production techniques devised by post-punk producers such as Martin Hannett and Dennis Bovell during this period would become an important element of the emerging music, with studio experimentation taking a central role. A variety of groups that predated punk, such as Cabaret Voltaire and Throbbing Gristle, experimented with crude production techniques and electronic instruments in tandem with performance art methods and influence from transgressive literature, ultimately helping to pioneer industrial music. Throbbing Gristle's independent label Industrial Records would become a hub for this scene and provide it with its namesake.",
+      "questions": [
+        {
+          "question": "What type of production techniques did Dennis Bovell develop?",
+          "answer": "innovative"
+        },
+        {
+          "question": "Where did industrial music get it's name?",
+          "answer": "Industrial Records"
+        },
+        {
+          "question": "What took a central roll for the emerging post-punk music?",
+          "answer": "studio experimentation"
+        },
+        {
+          "question": "What was the name of Throbbing Gristle's record label?",
+          "answer": "Industrial Records"
+        },
+        {
+          "question": "Which bands were on the forefront of industrial music?",
+          "answer": "Cabaret Voltaire and Throbbing Gristle"
+        },
+        {
+          "question": "What was one of the most important ways that post-punk artists created their new sound?",
+          "answer": "studio experimentation"
+        },
+        {
+          "question": "Whose independent label became a hub for the industrial scene?",
+          "answer": "Throbbing Gristle's"
+        },
+        {
+          "question": "What type of producer was Martin Hannett?",
+          "answer": "post-punk"
+        }
+      ],
+      "self_edit": "1. **Innovative Production Techniques and Experimentation**: The post-punk movement introduced innovative production techniques and experimented with a range of methods, which became influential in shaping the emerging genre.\n   \n2. **Central Role of Studio Experimentation**: The post-punk era placed a significant emphasis on studio experimentation, highlighting its importance in developing new musical directions.\n\n3. **Impact on Industrial Music**: The techniques and methods of post-punk producers played a crucial role in the development of industrial music, which emerged as a subgenre.\n\n4. **Pioneering Transgressive Literature**: Post-punk producers incorporated transgressive literary influences, which was part of the artistic and experimental elements of the movement.\n\n5. **Pre-existing Groups' Contributions**: Post-punk producers built on and contributed to the work of pre-punk groups like Cabaret Voltaire and Throbbing Gristle, extending their artistic techniques and methods.\n\n6. **Independent Label's Impact**: The independent label Industrial Records, established by Throbbing Gristle, became a central hub for this emerging music scene, facilitating its growth and development.\n\n7. **Collaboration Across Genres**: The post-punk era encouraged collaboration and experimentation across different musical genres and artistic disciplines, which became a defining characteristic of the movement.\n\n8. **Influence on Music Production**: The innovative techniques and methods used during the post-punk period had a lasting influence on music production and have remained an important topic in music history and criticism.\n\nThese implications are derived from the specific details provided in the passage, focusing on the innovations and collaborations that took place during the post-punk era.",
+      "row0_predictions": [
+        "Dennis Bovell developed a unique and innovative production technique known as \"Dennis Bovell's Technique,\" which",
+        "Industrial music",
+        "The emergence of post-punk music",
+        "Throbbing Gristle's record label was called \"Throbbing Gristle Records.\"",
+        "The bands on the forefront of industrial music were The Velvet Underground, The Velvet Underground and The End, The Velvet Underground and",
+        "The most important way that post-punk artists created their new sound was by experimenting with new musical styles and techniques, such",
+        "The Independent label became a hub for the industrial scene.",
+        "post-punk"
+      ]
+    },
+    {
+      "title": "New Haven, Connecticut",
+      "context": "Artspace on Orange Street is one of several contemporary art galleries around the city, showcasing the work of local, national, and international artists. Others include City Gallery and A. Leaf Gallery in the downtown area. Westville galleries include Kehler Liddell, Jennifer Jane Gallery, and The Hungry Eye. The Erector Square complex in the Fair Haven neighborhood houses the Parachute Factory gallery along with numerous artist studios, and the complex serves as an active destination during City-Wide Open Studios held yearly in October.",
+      "questions": [
+        {
+          "question": "This gallery contains works of artist such as The Hungry Eye, what is name of the place?",
+          "answer": "Westville galleries"
+        },
+        {
+          "question": "What is the name of a prominent contemporary art gallery on Orange Street in New Haven?",
+          "answer": "Artspace"
+        },
+        {
+          "question": "The Erector Square complex is a gallery that is located where?",
+          "answer": "Fair Haven neighborhood houses"
+        },
+        {
+          "question": "In what area of New Haven are Kehler Liddel, Jennider Jane Gallery, and The Hungry Eye Gallery located?",
+          "answer": "Westville"
+        },
+        {
+          "question": "What is the name of the art gallery that hosts multiple artist locally and around the world?",
+          "answer": "Artspace"
+        },
+        {
+          "question": "What are two contemporary art galleries located in downtown New Haven?",
+          "answer": "City Gallery and A. Leaf Gallery"
+        },
+        {
+          "question": "During which month is the complex particularly active?",
+          "answer": "October"
+        },
+        {
+          "question": "For what annual New Haven art event, held in early October, is the Erector Square complex used?",
+          "answer": "City-Wide Open Studios"
+        }
+      ],
+      "self_edit": "Implications:\n\n1. **Location-based Art Galleries:**\n   - Artspace on Orange Street, City Gallery, A. Leaf Gallery, Kehler Liddell, Jennifer Jane Gallery, The Hungry Eye, Parachute Factory Gallery, and numerous artist studios are located around the city, providing easy access for local residents and visitors.\n   - These locations suggest that artists in New Haven can showcase their work in various neighborhoods, catering to different areas' preferences and demographics.\n\n2. **Artistic Diversity:**\n   - The galleries feature local, national, and international artists, indicating that New Haven supports a diverse art scene that includes talent from various backgrounds and influences.\n   - This diversity suggests a rich artistic community in New Haven, where different types of art can coexist and be appreciated.\n\n3. **Urban Revitalization:**\n   - The presence of these art galleries and studios contributes to the urban revitalization of Fair Haven, enhancing the area's cultural offerings and attracting more residents and visitors.\n   - This revitalization also impacts the local economy through increased foot traffic and potential investment in the neighborhood.\n\n4. **Tourism and Culture:**\n   - The annual City-Wide Open Studios event attracts tourists and locals alike, providing opportunities for art appreciation and enhancing the city's cultural landscape.\n   - This event, along with the ongoing gallery openings, creates a vibrant cultural environment in New Haven, appealing to diverse interests and providing a reason for people to explore the city.\n\n5. **Artist Development:**\n   - The proximity of the galleries to residences and art studios allows for easier interaction between artists and patrons, fostering an environment that can support professional growth and development.\n   - This facilitates a better connection between artists and their communities, which is essential for a healthy, sustainable artistic ecosystem.\n\n6. **Community Engagement:**\n   - The various galleries and studios in New Haven engage the local community by offering educational and artistic opportunities, promoting community involvement and engagement.\n   - This engagement can lead to increased community pride and understanding of the arts, making the city more cohesive and welcoming.\n\n7. **Economic Impact:**\n   - The presence of these art galleries and studios creates job opportunities for local artists and arts administrators, contributing to the local economy.\n   - They also attract tourists, generating revenue for local businesses and contributing to the city's economic base.\n\n8. **Creative Space:**\n   - The art galleries and studios in New Haven provide a creative space for artists to work, promoting a dynamic and vibrant artistic community.\n   - This environment encourages",
+      "row0_predictions": [
+        "New Haven, Connecticut",
+        "The New Haven Museum of Art",
+        "New Haven, Connecticut",
+        "New Haven, Connecticut",
+        "The art gallery that hosts multiple artist locally and around the world is the New Haven Museum of Art.",
+        "The two contemporary art galleries located in downtown New Haven are the New Haven Museum of Art and the New Haven Contemporary Art Center",
+        "June",
+        "Erector Square"
+      ]
+    },
+    {
+      "title": "Great power",
+      "context": "All states have a geographic scope of interests, actions, or projected power. This is a crucial factor in distinguishing a great power from a regional power; by definition the scope of a regional power is restricted to its region. It has been suggested that a great power should be possessed of actual influence throughout the scope of the prevailing international system. Arnold J. Toynbee, for example, observes that \"Great power may be defined as a political force exerting an effect co-extensive with the widest range of the society in which it operates. The Great powers of 1914 were 'world-powers' because Western society had recently become 'world-wide'.\"",
+      "questions": [
+        {
+          "question": "Which societal values had become world-wide by 1914?",
+          "answer": "Western"
+        },
+        {
+          "question": "What type of power is restricted to its region?",
+          "answer": "regional power"
+        },
+        {
+          "question": "What three things do all states have in their geographic scope?",
+          "answer": "interests, actions, or projected power"
+        },
+        {
+          "question": "What do all states have?",
+          "answer": "geographic scope of interests, actions, or projected power"
+        },
+        {
+          "question": "Who stated that \"Great power may be defined as a political force exerting an effect co-extensive with the widest range of the society in which it operates. The Great powers of 1914 were 'world-powers\"?",
+          "answer": "Arnold J. Toynbee"
+        },
+        {
+          "question": "What were the great powers of 1914 called?",
+          "answer": "world-powers"
+        },
+        {
+          "question": "What type of powers should have actual influence throughout the scope of the prevailing international system?",
+          "answer": "great power"
+        },
+        {
+          "question": "What is the scope of a regional power restricted to?",
+          "answer": "its region"
+        }
+      ],
+      "self_edit": "1. A great power has a broader geographic scope of interests and actions compared to a regional power.\n2. The definition of a great power includes having actual influence throughout the scope of the prevailing international system.\n3. Arnold J. Toynbee suggests that a great power should possess influence that is co-extensive with the society in which it operates.\n4. The idea that great powers were considered 'world-powers' in 1914 due to the recent expansion of Western society.\n5. Great powers exert their influence on a larger scale compared to regional powers, which are limited to their respective regions.",
+      "row0_predictions": [
+        "The societal values that had become world-wide by 1914 were the values of democracy, individualism, and",
+        "The type of power that is restricted to its region is called \"regional\" or \"local\" power.",
+        "The three things that all states have in their geographic scope are land area, population, and territory.",
+        "The United States",
+        "George Kennan",
+        "The Great Powers of 1914 were the United Kingdom, France, Germany, Italy, Japan, and Russia",
+        "The type of powers that should have actual influence throughout the scope of the prevailing international system are those that are directly related to",
+        "The scope of a regional power restricted to is limited to a specific geographic area or region."
+      ]
+    },
+    {
+      "title": "2008 Summer Olympics torch relay",
+      "context": "French police were criticised for their handling of the events, and notably for confiscating Tibetan flags from demonstrators. The newspaper Libération commented: \"The police did so much that only the Chinese were given freedom of expression. The Tibetan flag was forbidden everywhere except on the Trocadéro.\" Minister of the Interior Michèle Alliot-Marie later stated that the police had not been ordered to do so, and that they had acted on their own initiative. A cameraman for France 2 was struck in the face by a police officer, knocked unconscious, and had to be sent to hospital.",
+      "questions": [
+        {
+          "question": "What did French police take from demonstrators?",
+          "answer": "Tibetan flags"
+        },
+        {
+          "question": "Which newspaper reported that only the Chinese could express themselves?",
+          "answer": "Libération"
+        },
+        {
+          "question": "Where was the only place the Tibetan flag could be held?",
+          "answer": "the Trocadéro"
+        },
+        {
+          "question": "Who was the Minister of the Interior?",
+          "answer": "Michèle Alliot-Marie"
+        },
+        {
+          "question": "What did French law enforcement take from protesters?",
+          "answer": "Tibetan flags"
+        },
+        {
+          "question": "Where was the only place Tibetan flags were permitted?",
+          "answer": "the Trocadéro."
+        },
+        {
+          "question": "Who said the police acted on their own in taking the flags?",
+          "answer": "Michèle Alliot-Marie"
+        },
+        {
+          "question": "Who rendered a France 2 camera person unconscious?",
+          "answer": "a police officer"
+        }
+      ],
+      "self_edit": "Based on the passage, here are some implied implications:\n\n1. **Criticism of French Policing**: The French police were criticized for their handling of the 2008 Summer Olympics torch relay, particularly for their treatment of Tibetan flags.\n\n2. **Freedom of Expression Limitations**: The implication suggests that the police, while not ordered to restrict freedom of expression, enforced restrictions effectively, giving Tibetans fewer opportunities to express their flag.\n\n3. **Cameraman Incident**: The story includes an incident involving a cameraman being hit by a police officer, knocked unconscious, and later having to be hospitalized. This event highlights a physical manifestation of the restrictions imposed on Tibetans.\n\n4. **Policy vs. Action Discrepancy**: There is a discrepancy between the government officials (Minister of the Interior Michèle Alliot-Marie) stating that the police did not need orders to enforce their actions and the police themselves taking action on their own initiative. This suggests a policy inconsistency between the stated stance and actual practice.\n\n5. **Political Allusions**: The passage alludes to broader political issues in China-Tibet relations, potentially influencing the international perception of both nations.\n\n6. **Symbolic Actions**: The confiscation of Tibetan flags symbolizes the suppression of minority rights and cultural expressions in the name of national unity.\n\nThese implications are drawn directly from the information provided in the passage.",
+      "row0_predictions": [
+        "French police took the torch from demonstrators.",
+        "The New York Times",
+        "Tibet",
+        "The Minister of the Interior was the Minister of the Interior of the Kingdom of the Netherlands.",
+        "French law enforcement took from protesters the torch.",
+        "Tibetan flags were permitted at the 2008 Summer Olympics torch relay in Beijing.",
+        "The police acted on their own in taking the flags.",
+        "The French television channel France 2 rendered a camera person unconscious during the 2008 Summer Olympics torch relay."
+      ]
+    }
+  ]
+}

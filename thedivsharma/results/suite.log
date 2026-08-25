@@ -1,0 +1,170 @@
+[skip] cache seed1 already complete
+[skip] run seed1_baseline already complete
+[skip] run seed1_replay already complete
+[skip] run seed1_nsce already complete
+[skip] cache seed2 already complete
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 2 --mode baseline --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[baseline seed2] step 1/15 'Hunting' collision=0.000 protected_rank=2754 acc_row=[0.00] (19.1s)
+[baseline seed2] step 2/15 'Modern history' collision=0.064 protected_rank=3062 acc_row=[0.12, 0.00] (16.8s)
+[baseline seed2] step 3/15 'Hunting' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25] (22.2s)
+[baseline seed2] step 4/15 'Red' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.25] (19.0s)
+[baseline seed2] step 5/15 'Beyoncé' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.25, 0.25] (22.9s)
+[baseline seed2] step 6/15 'Frédéric Chopin' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.12] (23.8s)
+[baseline seed2] step 7/15 'Frédéric Chopin' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (35.8s)
+[baseline seed2] step 8/15 'Russian Soviet Federative Socialist Repu' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12, 0.12] (48.0s)
+[baseline seed2] step 9/15 'Muammar Gaddafi' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.12, 0.12, 0.00, 0.12, 0.25, 0.00] (33.4s)
+[baseline seed2] step 10/15 '2008 Sichuan earthquake' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12, 0.25, 0.00, 0.00] (42.7s)
+[baseline seed2] step 11/15 'Bermuda' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.12, 0.12, 0.00, 0.00, 0.25, 0.00, 0.00, 0.00] (42.2s)
+[baseline seed2] step 12/15 'Post-punk' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12] (46.6s)
+[baseline seed2] step 13/15 'New Haven, Connecticut' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00] (67.1s)
+[baseline seed2] step 14/15 'Great power' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.12, 0.00, 0.12, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00, 0.12] (45.8s)
+[baseline seed2] step 15/15 '2008 Summer Olympics torch relay' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.12, 0.00, 0.12, 0.25, 0.00, 0.00, 0.12, 0.12, 0.00, 0.12, 0.00] (54.8s)
+[done] baseline seed=2 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed2_baseline.json
+  -> exit 0 (546s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 2 --mode replay --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[replay seed2] step 1/15 'Hunting' collision=0.000 protected_rank=2748 acc_row=[0.12] (19.4s)
+[replay seed2] step 2/15 'Modern history' collision=0.064 protected_rank=3062 acc_row=[0.00, 0.00] (19.9s)
+[replay seed2] step 3/15 'Hunting' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25] (28.9s)
+[replay seed2] step 4/15 'Red' collision=0.071 protected_rank=3072 acc_row=[0.25, 0.00, 0.25, 0.62] (23.1s)
+[replay seed2] step 5/15 'Beyoncé' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.25, 0.25] (27.8s)
+[replay seed2] step 6/15 'Frédéric Chopin' collision=0.072 protected_rank=3072 acc_row=[0.12, 0.00, 0.25, 0.12, 0.12, 0.00] (28.1s)
+[replay seed2] step 7/15 'Frédéric Chopin' collision=0.073 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.00] (40.5s)
+[replay seed2] step 8/15 'Russian Soviet Federative Socialist Repu' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.12, 0.00, 0.00, 0.00, 0.25] (50.7s)
+[replay seed2] step 9/15 'Muammar Gaddafi' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.38, 0.25, 0.00, 0.12, 0.25, 0.00] (36.9s)
+[replay seed2] step 10/15 '2008 Sichuan earthquake' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.25, 0.00, 0.00] (47.8s)
+[replay seed2] step 11/15 'Bermuda' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.38, 0.12, 0.00, 0.12, 0.12, 0.00, 0.00, 0.00] (45.1s)
+[replay seed2] step 12/15 'Post-punk' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12, 0.38, 0.00, 0.00, 0.00, 0.12] (50.5s)
+[replay seed2] step 13/15 'New Haven, Connecticut' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00] (73.5s)
+[replay seed2] step 14/15 'Great power' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.25, 0.12, 0.00, 0.12, 0.00, 0.00, 0.00, 0.12, 0.12, 0.00, 0.12] (53.1s)
+[replay seed2] step 15/15 '2008 Summer Olympics torch relay' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.12, 0.12, 0.00, 0.00, 0.25, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12, 0.12] (59.1s)
+[done] replay seed=2 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed2_replay.json
+  -> exit 0 (610s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 2 --mode nsce --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[nsce seed2] step 1/15 'Hunting' collision=0.000 protected_rank=2724 acc_row=[0.00] (20.7s)
+[nsce seed2] step 2/15 'Modern history' collision=0.064 protected_rank=3058 acc_row=[0.00, 0.00] (20.1s)
+[nsce seed2] step 3/15 'Hunting' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.25] (28.0s)
+[nsce seed2] step 4/15 'Red' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.25] (23.2s)
+[nsce seed2] step 5/15 'Beyoncé' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.12, 0.25] (26.8s)
+[nsce seed2] step 6/15 'Frédéric Chopin' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.25, 0.12, 0.12, 0.00] (27.9s)
+[nsce seed2] step 7/15 'Frédéric Chopin' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.25, 0.00, 0.00, 0.00] (42.7s)
+[nsce seed2] step 8/15 'Russian Soviet Federative Socialist Repu' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.12] (53.0s)
+[nsce seed2] step 9/15 'Muammar Gaddafi' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.00, 0.12, 0.00, 0.12, 0.00, 0.00] (34.9s)
+[nsce seed2] step 10/15 '2008 Sichuan earthquake' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.25, 0.12, 0.00, 0.00, 0.12, 0.00, 0.00] (45.6s)
+[nsce seed2] step 11/15 'Bermuda' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.12, 0.12, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12] (48.2s)
+[nsce seed2] step 12/15 'Post-punk' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.25, 0.12, 0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12] (52.7s)
+[nsce seed2] step 13/15 'New Haven, Connecticut' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.25, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00] (72.7s)
+[nsce seed2] step 14/15 'Great power' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.25, 0.12, 0.12, 0.00, 0.12, 0.12, 0.00, 0.00, 0.12, 0.12, 0.00, 0.12] (44.4s)
+[nsce seed2] step 15/15 '2008 Summer Olympics torch relay' collision=0.070 protected_rank=3072 acc_row=[0.12, 0.00, 0.25, 0.25, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.12, 0.00, 0.12, 0.00] (48.4s)
+[done] nsce seed=2 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed2_nsce.json
+  -> exit 0 (595s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python generate_self_edits.py --seed 3 --k_articles 15 --questions_per_article 8
+[grader] resolved mode: f1em
+[data] 999 candidate articles (>= 8 questions)
+[self-edit] generating 15 self-edits via ollama/qwen2.5:1.5b ...
+  [1/15] 'Buddhism' (3.2s, 754 chars)
+  [2/15] 'Buckingham Palace' (3.9s, 1159 chars)
+  [3/15] 'Queen Victoria' (6.5s, 2222 chars)
+  [4/15] 'The Legend of Zelda: Twilight Princess' (3.6s, 1000 chars)
+  [5/15] 'Boston' (2.1s, 588 chars)
+  [6/15] 'Premier League' (3.2s, 626 chars)
+  [7/15] 'Buckingham Palace' (2.2s, 606 chars)
+  [8/15] 'Pharmaceutical industry' (3.0s, 809 chars)
+  [9/15] 'Germans' (3.9s, 979 chars)
+  [10/15] 'Buckingham Palace' (5.4s, 1708 chars)
+  [11/15] 'Antibiotics' (2.7s, 907 chars)
+  [12/15] 'States of Germany' (1.6s, 388 chars)
+  [13/15] 'Beyoncé' (3.7s, 891 chars)
+  [14/15] 'Premier League' (7.7s, 2620 chars)
+  [15/15] 'Muammar Gaddafi' (2.0s, 414 chars)
+[row0] loading base model for untouched-baseline eval ...
+[row0] answered 120 questions in 40.4s
+[done] wrote /Users/divsharma/Desktop/SEAL/thedivsharma/results/cache/seed3.json
+  -> exit 0 (102s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 3 --mode baseline --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[baseline seed3] step 1/15 'Buddhism' collision=0.000 protected_rank=2680 acc_row=[0.12] (14.1s)
+[baseline seed3] step 2/15 'Buckingham Palace' collision=0.062 protected_rank=3032 acc_row=[0.00, 0.00] (19.6s)
+[baseline seed3] step 3/15 'Queen Victoria' collision=0.070 protected_rank=3060 acc_row=[0.00, 0.00, 0.00] (48.2s)
+[baseline seed3] step 4/15 'The Legend of Zelda: Twilight Princess' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00] (25.7s)
+[baseline seed3] step 5/15 'Boston' collision=0.070 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.25] (32.7s)
+[baseline seed3] step 6/15 'Premier League' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.38, 0.12] (26.5s)
+[baseline seed3] step 7/15 'Buckingham Palace' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00] (30.8s)
+[baseline seed3] step 8/15 'Pharmaceutical industry' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (32.2s)
+[baseline seed3] step 9/15 'Germans' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12, 0.25, 0.00] (38.7s)
+[baseline seed3] step 10/15 'Buckingham Palace' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (55.1s)
+[baseline seed3] step 11/15 'Antibiotics' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12] (53.4s)
+[baseline seed3] step 12/15 'States of Germany' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (51.0s)
+[baseline seed3] step 13/15 'Beyoncé' collision=0.072 protected_rank=3072 acc_row=[0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.25, 0.12, 0.12] (53.7s)
+[baseline seed3] step 14/15 'Premier League' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (82.0s)
+[baseline seed3] step 15/15 'Muammar Gaddafi' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.00, 0.00, 0.00, 0.12, 0.12, 0.25, 0.25, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (51.3s)
+[done] baseline seed=3 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed3_baseline.json
+  -> exit 0 (621s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 3 --mode replay --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[replay seed3] step 1/15 'Buddhism' collision=0.000 protected_rank=2694 acc_row=[0.12] (13.2s)
+[replay seed3] step 2/15 'Buckingham Palace' collision=0.062 protected_rank=3044 acc_row=[0.00, 0.00] (20.6s)
+[replay seed3] step 3/15 'Queen Victoria' collision=0.071 protected_rank=3062 acc_row=[0.00, 0.00, 0.00] (43.6s)
+[replay seed3] step 4/15 'The Legend of Zelda: Twilight Princess' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.12] (24.4s)
+[replay seed3] step 5/15 'Boston' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.25] (30.2s)
+[replay seed3] step 6/15 'Premier League' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.12, 0.38, 0.00] (27.7s)
+[replay seed3] step 7/15 'Buckingham Palace' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.25, 0.00, 0.25] (34.0s)
+[replay seed3] step 8/15 'Pharmaceutical industry' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12, 0.25] (33.6s)
+[replay seed3] step 9/15 'Germans' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.25, 0.12, 0.25, 0.12, 0.00] (39.6s)
+[replay seed3] step 10/15 'Buckingham Palace' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00] (52.7s)
+[replay seed3] step 11/15 'Antibiotics' collision=0.072 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.12] (40.5s)
+[replay seed3] step 12/15 'States of Germany' collision=0.073 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12] (42.2s)
+[replay seed3] step 13/15 'Beyoncé' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12, 0.00, 0.12] (55.2s)
+[replay seed3] step 14/15 'Premier League' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00] (84.4s)
+[replay seed3] step 15/15 'Muammar Gaddafi' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.00, 0.00, 0.12, 0.00, 0.00, 0.12, 0.12, 0.00, 0.12, 0.12, 0.12, 0.00, 0.00] (49.6s)
+[done] replay seed=3 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed3_replay.json
+  -> exit 0 (597s)
+
+$ /opt/anaconda3/envs/seal_env/bin/python run_continual.py --seed 3 --mode nsce --eval_batch_size 8
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[grader] mode=f1em
+[model] loading Qwen/Qwen2.5-0.5B on mps ...
+[lora] 48 target modules
+[nsce seed3] step 1/15 'Buddhism' collision=0.000 protected_rank=2682 acc_row=[0.00] (13.0s)
+[nsce seed3] step 2/15 'Buckingham Palace' collision=0.062 protected_rank=3032 acc_row=[0.00, 0.00] (18.7s)
+[nsce seed3] step 3/15 'Queen Victoria' collision=0.071 protected_rank=3060 acc_row=[0.00, 0.00, 0.00] (44.4s)
+[nsce seed3] step 4/15 'The Legend of Zelda: Twilight Princess' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00] (23.0s)
+[nsce seed3] step 5/15 'Boston' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.38] (31.2s)
+[nsce seed3] step 6/15 'Premier League' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.00, 0.50, 0.00] (26.5s)
+[nsce seed3] step 7/15 'Buckingham Palace' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.25, 0.00, 0.12] (28.4s)
+[nsce seed3] step 8/15 'Pharmaceutical industry' collision=0.071 protected_rank=3072 acc_row=[0.12, 0.00, 0.12, 0.00, 0.38, 0.00, 0.12, 0.12] (31.5s)
+[nsce seed3] step 9/15 'Germans' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.38, 0.00, 0.00, 0.12, 0.12] (40.5s)
+[nsce seed3] step 10/15 'Buckingham Palace' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.25, 0.00, 0.00, 0.12, 0.00, 0.00] (54.4s)
+[nsce seed3] step 11/15 'Antibiotics' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.00, 0.00, 0.38, 0.00, 0.00, 0.12, 0.00, 0.00, 0.00] (43.5s)
+[nsce seed3] step 12/15 'States of Germany' collision=0.072 protected_rank=3072 acc_row=[0.12, 0.00, 0.00, 0.00, 0.25, 0.00, 0.00, 0.12, 0.12, 0.00, 0.00, 0.25] (43.2s)
+[nsce seed3] step 13/15 'Beyoncé' collision=0.071 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.25, 0.00, 0.12, 0.12, 0.00, 0.00, 0.12, 0.12, 0.25] (50.4s)
+[nsce seed3] step 14/15 'Premier League' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.25, 0.00, 0.00, 0.25, 0.00, 0.00, 0.00, 0.12, 0.12, 0.00] (75.0s)
+[nsce seed3] step 15/15 'Muammar Gaddafi' collision=0.072 protected_rank=3072 acc_row=[0.00, 0.00, 0.12, 0.00, 0.38, 0.00, 0.00, 0.12, 0.25, 0.00, 0.00, 0.12, 0.12, 0.00, 0.00] (44.1s)
+[done] nsce seed=3 -> /Users/divsharma/Desktop/SEAL/thedivsharma/results/runs/seed3_nsce.json
+  -> exit 0 (574s)
+
+=== SUITE COMPLETE ===
+all runs completed successfully
