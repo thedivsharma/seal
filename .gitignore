@@ -2,3 +2,4 @@
 __pycache__/
 logs/
 models/
+general-knowledge/data/synthetic_data/eval_full/base_val_entigraph.json
