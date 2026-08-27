@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" font-family="Helvetica, Arial, sans-serif">
+<rect width="640" height="420" fill="#ffffff"/>
+
+<text x="320.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">NSCE retains more of what the model learned</text>
+<text x="320.0" y="48" text-anchor="middle" font-size="12" fill="#555">retention = accuracy at end of sequence ÷ accuracy right after learning</text>
+<line x1="70" y1="60" x2="70" y2="350" stroke="#999"/>
+<line x1="70" y1="350" x2="610" y2="350" stroke="#999"/>
+<line x1="70" y1="350.0" x2="610" y2="350.0" stroke="#eee"/>
+<text x="60" y="354.0" text-anchor="end" font-size="11" fill="#666">0%</text>
+<line x1="70" y1="285.55555555555554" x2="610" y2="285.55555555555554" stroke="#eee"/>
+<text x="60" y="289.55555555555554" text-anchor="end" font-size="11" fill="#666">20%</text>
+<line x1="70" y1="221.11111111111111" x2="610" y2="221.11111111111111" stroke="#eee"/>
+<text x="60" y="225.11111111111111" text-anchor="end" font-size="11" fill="#666">40%</text>
+<line x1="70" y1="156.66666666666669" x2="610" y2="156.66666666666669" stroke="#eee"/>
+<text x="60" y="160.66666666666669" text-anchor="end" font-size="11" fill="#666">60%</text>
+<line x1="70" y1="92.22222222222223" x2="610" y2="92.22222222222223" stroke="#eee"/>
+<text x="60" y="96.22222222222223" text-anchor="end" font-size="11" fill="#666">80%</text>
+<rect x="128.5" y="130.58201058201055" width="62.99999999999999" height="219.41798941798945" fill="#b9c2cc" rx="4" stroke="none" stroke-width="0"/>
+<line x1="160.0" y1="84.83243450154583" x2="160.0" y2="176.33158666247527" stroke="#444" stroke-width="1.5"/>
+<text x="160.0" y="120.58201058201055" text-anchor="middle" font-size="13" font-weight="normal" fill="#1a1a1a">68.1%</text>
+<text x="160.0" y="372" text-anchor="middle" font-size="12" fill="#333">plain SEAL merge</text>
+<rect x="308.5" y="139.21296296296296" width="62.99999999999999" height="210.78703703703704" fill="#8fa6b8" rx="4" stroke="none" stroke-width="0"/>
+<line x1="340.0" y1="123.38402974287052" x2="340.0" y2="155.04189618305537" stroke="#444" stroke-width="1.5"/>
+<text x="340.0" y="129.21296296296296" text-anchor="middle" font-size="13" font-weight="normal" fill="#1a1a1a">65.4%</text>
+<text x="340.0" y="372" text-anchor="middle" font-size="12" fill="#333">replay baseline</text>
+<rect x="488.5" y="100.91710758377425" width="62.99999999999999" height="249.08289241622575" fill="#2f9e6f" rx="4" stroke="#1c6e4a" stroke-width="2"/>
+<line x1="520.0" y1="89.84063797171916" x2="520.0" y2="111.99357719582932" stroke="#444" stroke-width="1.5"/>
+<text x="520.0" y="90.91710758377425" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">77.3%</text>
+<text x="520.0" y="372" text-anchor="middle" font-size="12" fill="#333">NSCE</text>
+<text x="520.0" y="388" text-anchor="middle" font-size="11" font-weight="bold" fill="#1c6e4a">best</text>
+</svg>

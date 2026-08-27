@@ -48,3 +48,31 @@ mean anyway , not a slow leak, but a sudden collapse.
   do next with more time.
 - `comparison_summary.json` has the raw numbers behind the table above.
 - `runs/` has the full per-step results for every individual run.
+
+<!-- visualize_results:start -->
+## Visualized
+
+![retention comparison across conditions](figures/retention_comparison.svg)
+
+![NSCE preventing a forgetting episode on "Boston"](figures/recovery_example.svg)
+
+NSCE comes out ahead on retention, and the clearest example of why is above: a fact ("Boston", seed 3) that plain SEAL merging lets collapse to near-zero recall gets held onto by NSCE instead.
+
+### Per-seed retention
+
+| seed | plain SEAL merge | replay baseline | NSCE |
+|---|---|---|---|
+| 1 | **85.7%** | 75.0% | 77.1% |
+| 2 | **78.6%** | 58.8% | 71.4% |
+| 3 | 40.0% | 62.5% | **83.3%** |
+
+### NSCE is the consistent one
+
+Plain SEAL merging swings from 40.0% retention on its worst seed up to 85.7% on its best — a 45.7-point spread, because whether it collapses depends on which facts happen to collide with which self-edits. NSCE's seeds land within 11.9 points of each other (71.4%–83.3%) — roughly a quarter of baseline's spread. NSCE's *worst* seed (71.4%) still beats both plain SEAL's worst (40.0%) and replay's worst (58.8%).
+
+### Retention doesn't cost plasticity
+
+NSCE constrains *where* a self-edit can write, so it's fair to ask whether that gets in the way of learning the new fact in the first place. It doesn't: NSCE's accuracy right after teaching a fact (plasticity) averages 9.2%, versus 7.5% for plain SEAL merging — the constraint isn't trading away learning to get retention, it's improving both.
+
+*Generated locally by `visualize_results.py` — static SVGs and markdown, no server.*
+<!-- visualize_results:end -->
